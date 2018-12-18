@@ -1,0 +1,19 @@
+<table name="Megumin's Hat">
+    <Localization directory="Localization" default="english.txt"></Localization>
+    <GlobalValue id="megumins_hat" color="Color(1, 0.5, 0)"/>
+    
+    <Mask id="megumins_hat" unit="units/mods/masks/msk_megumins_hat/msk_megumins_hat" texture_bundle_folder="mods" global_value="megumins_hat" type="hat" />
+    
+    <AddFiles directory="assets"> 
+        <cooked_physics path="units/mods/masks/msk_megumins_hat/msk_megumins_hat"/>
+        <model path="units/mods/masks/msk_megumins_hat/msk_megumins_hat"/>
+        <object path="units/mods/masks/msk_megumins_hat/msk_megumins_hat"/>
+        <unit path="units/mods/masks/msk_megumins_hat/msk_megumins_hat"/>
+        <material_config path="units/mods/masks/msk_megumins_hat/msk_megumins_hat"/>
+        
+        <texture path="units/mods/masks/msk_megumins_hat/msk_megumins_hat_df"/>
+        <texture path="units/mods/masks/msk_megumins_hat/msk_megumins_hat_nm"/>
+        <texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/masks/megumins_hat"/>
+        
+    </AddFiles>
+</table>

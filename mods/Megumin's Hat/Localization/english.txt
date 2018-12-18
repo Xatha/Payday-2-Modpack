@@ -1,0 +1,5 @@
+{
+  "bm_msk_megumins_hat" : "Megumin's Hat",
+  "bm_msk_megumins_hat_desc" : "Darkness blacker than black and darker than dark, I beseech thee, combine with my deep crimson.\n\nThe time of awakening cometh.\n\nJustice, fallen upon the infallible boundary, appear now as an intangible distortion!\n\nI desire for my torrent of power a destructive force: A destructive force without equal!\n\nReturn all creation to cinders, and come from the abyss!\n",
+  "menu_l_global_value_megumins_hat" : "EXPLOOOOOOSION!"
+}
