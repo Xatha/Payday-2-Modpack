@@ -1,0 +1,5 @@
+{
+  "bm_melee_megumins_staff" : "Megumin's Staff",
+  "bm_melee_megumins_staff_info" : "Releases a powerful Explosion when fully charged!",
+  "menu_l_global_value_megumins_staff" : "EXPLOOOOOOSION!"
+}

@@ -1,0 +1,9 @@
+<materials version="3">
+  <material name="mtr_stick" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:NORMALMAP_UV1:SELF_ILLUMINATION:SELF_ILLUMINATION_BLOOM" version="2">
+    <diffuse_texture file="units/mods/weapons/wpn_fps_mel_megumins_staff/staff_df"/>
+    <self_illumination_texture file="units/mods/weapons/wpn_fps_mel_megumins_staff/staff_il"/>
+    <bump_normal_texture file="units/mods/weapons/wpn_fps_mel_megumins_staff/staff_nm"/>
+    <variable type="scalar" name="il_multiplier" value="streetlight"/>
+    <variable type="scalar" name="il_bloom" value="1"/>
+  </material>
+</materials>
