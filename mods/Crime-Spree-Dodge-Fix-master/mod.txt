@@ -1,0 +1,17 @@
+{
+    "name" : "Crime Spree Dodge Fix",
+    "description" : "Removes the concealment modifiers from crimespree, in order to make dodge builds still function.",
+    "author" : "TrophyBuck",
+    "contact" : "id/TrophyBuck",
+    "version" : "",
+    "priority" : 1,
+    "blt_version" : 2,
+    "image" : "csdodgefix.png",
+    "color" : "128 0 255",
+    "hooks":[
+        {
+            "hook_id":"lib/tweak_data/crimespreetweakdata",
+            "script_path":"crimespree_dodge_fix.lua"
+        }
+    ]
+}
