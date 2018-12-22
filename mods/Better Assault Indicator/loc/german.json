@@ -1,0 +1,175 @@
+{
+    "bai_mod_title" : "Better Assault Indicator",
+    "bai_mod_desc" : "Ändere mod optionen",
+
+    "bai_compatibility" : "HUD Kompatibilität",
+    "bai_compatibility_desc" : "hier kanst du die Kompatibilität mit einem bestimmten hud das du benuzt auswählen.\nauswahl des falschen huds kann zu einem crash führen.",
+    "bai_compatibility_1" : "erkennen",
+    "bai_compatibility_2" : "Vanilla",
+    "bai_compatibility_3" : "Void UI",
+    "bai_compatibility_4" : "Nepgearsy HUD Reborn",
+    "bai_compatibility_5" : "HoloUI",
+    "bai_compatibility_6" : "SydneyHUD",
+    "bai_compatibility_7" : "PD:TH HUD Reborn",
+
+    "bai_holoui" : "HoloUI einstellungen",
+    "bai_holoui_desc" : "wende spezielle Bai einstellungen bei HoloUI an",
+    "bai_holoui_update_text_color" : "aktualisiere text farbe",
+    "bai_holoui_update_text_color_desc" : "wenn vorstoßfeld aktualisiert wird auch text farbe aktualisieren",
+
+    "bai_pdth_hud_reborn" : "PD:TH HUD Reborn einstellungen",
+    "bai_pdth_hud_reborn_desc" : "wende spezielle Bai einstellungen bei PD:TH HUD Reborn an",
+    "bai_pdth_hud_reborn_custom_text_color" : "wende benutzerdefiniert Text farbe an",
+    "bai_pdth_hud_reborn_custom_text_color_desc" : "Wenn deaktiviert, wird das Spiel die Farbe des vorstoßsymbols auf den Text anwenden",
+
+    "bai_restoration_mod" : "Restoration Mod Optionen",
+    "bai_restoration_mod_desc" : "füge bai-einstellungen zum restoration mod hinzu",
+    "bai_restoration_mod_alpha_tape_only" : "Alpha Tape only",
+    "bai_restoration_mod_alpha_tape_only_desc" : "diese auswahl beeinflusst nur 'Alpha Tape' im Restoration Mod",
+    "bai_restoration_mod_include_cover_text" : "schließt Cover Text mit ein",
+    "bai_restoration_mod_include_cover_text_desc" : "schließt 'bleibe in deckung' string in der Assault Box mit ein",
+    "bai_restoration_mod_use_alpha_assault_text" : "benutze Alpha vorstoß Text",
+    "bai_restoration_mod_use_alpha_assault_text_desc" : "benutze kürzere version von 'polizeivorstoß im gange' text",
+    "bai_restoration_mod_use_alpha_endless_text" : "benutze Alpha Endloser vorstoß Text",
+    "bai_restoration_mod_use_alpha_endless_text_desc" : "benutze kürzere version von 'ENDLoser Polizeivorstoß im gange' text",
+    "bai_restoration_mod_early_alpha_corner_only" : "Early Alpha Corner only",
+    "bai_restoration_mod_early_alpha_corner_only_desc" : "diese auswahl beeinflusst nur 'Early Alpha Corner' im Restoration Mod",
+    "bai_c1" : "F1",
+    "bai_c2" : "F2",
+
+    "bai_mui" : "MUI Optionen",
+    "bai_mui_desc" : "fügt bestimmte BAI einstellungen zu MUI hinzu",
+    "bai_mui_assault_text" : "zeige 'VORSTOß' text statt schwierigkeitsnamen",
+    "bai_mui_assault_text_desc" : "Wenn aktiviert, wird 'vorstoß' text statt dem schwierigkeitsname angezeigt",
+
+    "bai_button_ok" : "OK",
+    "bai_detected_wolfhud" : "stellt Inkompatibilität mit WolfHUD fest",
+    "bai_detected_wolfhud_desc" : "WolfHUD's 'erweiterte vorstoß info' option ist Inkompatibel mit BAI und wird automatisch deaktiviert. diese option wurde aktiviert in BAI unter den namen 'erweiterte vorstoß Info' und 'vorstoß Statistik'.",
+    "bai_detected_assault_states" : "stellt Inkompatibilität mit 'vorstoß statistik mod' fest",
+    "bai_detected_assault_states_desc" : "'assault states mod' ist Inkompatibel mit BAI. BAI hat eine eingebaute unterstützung für assault states. es wird vorgeschlagen 'Assault States mod'zu deaktivieren oder zu entfernen.",
+    "bai_detected_wave_survived" : "stellt Inkompatibilität mit 'Wave Survived mod' fest",
+    "bai_detected_wave_survived_desc" : "'Wave Survived mod' ist Inkompatibel mit BAI. BAI hat eine eingebaute unterstützung zum anzeigen vom welle überlebt text. es wird vorgeschlagen 'Wave Survived mod' zu deaktivieren oder zu entfernen.",
+    "bai_detected_sydneyhud" : "stellt Inkompatibilität mit SydneyHUD fest",
+    "bai_detected_sydneyhud_desc" : "SydneyHUD's 'Enhanced Assault Banner' option ist Inkompatibel mit BAI und wird automatisch abgestellt. diese option wurde aktiviert in BAI uunter den namen 'erweiterte vorstoß Info' and 'vorstoß statistik'.",
+
+    "bai_show_wave_survived" : "Zeige Welle überlebt Banner",
+    "bai_show_wave_survived_desc" : "Zeigt Welle überlebt Banner an(von Versteck-Razzia) jedesmal wenn du und deine Crew einen Polizeivorstoß überleben",
+    
+    "bai_hide_hostage_panel" : "Verstecke Geiselfeld",
+    "bai_hide_hostage_panel_assault_desc" : "Versteckt das Geiselfeld wärend eines normalen vorstoßes",
+    "bai_hide_hostage_panel_captain_desc" : "Versteckt das Geiselfeld wenn der captain ankommt",
+    "bai_hide_hostage_panel_endless_desc" : "Versteckt das Geiselfeld wärend eines endlosen vorstoßes",
+
+    "bai_completely_hide_hostage_panel" : "versteckt das geiselfeld komplett",
+    "bai_completely_hide_hostage_panel_desc" : "geiselfeld wird nicht sichtbar sein wenn du in eine mission spawnst\ndiese einstellung, wenn aktiviert, ignoriert verstecke geiselfeld option im vorstoß-, captain- und endlosfeld",
+
+    "bai_show_difficulty_name_instead_of_skulls" : "Zeige Schwierigkeitsname statt Totenköpfe",
+    "bai_show_difficulty_name_instead_of_skulls_desc" : "Zeigt Schwierigkeitsname statt Totenköpfe im Vorstoßfeld an\nNicht anwendbar in der Crime_Spree",
+
+    "bai_host_only" : "Nur Host",
+    "bai_client_only" : "Nur Client",
+
+    "bai_trigger_endless_assault_client" : "Zeige endlose Vorstoße",
+    "bai_trigger_endless_assault_client_desc" : "Zeigt endlosen Vorstoß bei unterstützten Raube an wenn du Client bist. Diese Einstellung wird ignoriert wenn du hostest oder Host diesen Mod hat. du wirst vieleicht kleine Leistungseinbußen haben wenn diese Option eingeschalted ist.",
+    
+    "bai_r" : "Rot",
+    "bai_r_desc" : "Roten Wert einstellen (Nur ganze zahlen werden benutzt(abgerundet); bsp.: 28.55 -> 28)",
+    "bai_g" : "Grün",
+    "bai_g_desc" : "Grünen Wert einstellen (Nur ganze zahlen werden benutzt(abgerundet); bsp.: 28.55 -> 28)",
+    "bai_b" : "Blau",
+    "bai_b_desc" : "Blauen Wert einstellen (Nur ganze zahlen werden benutzt(abgerundet); bsp.: 28.55 -> 28)",
+
+    "bai_padlock_end_line" : "schloss anstatt /// anzeigen",
+    "bai_padlock_end_line_endless_assault_desc" : "zeigt ein schloss an anstatt /// bei einem endlosen vorstoß.\nanmerkung: manche huds (z.b. Void UI) haben diese option automatisch eingeschaltet und ist nicht ausschaltbar bei diesen",
+    "bai_padlock_end_line_endless_wave_survived_desc" : "zeigt ein schloss an anstatt /// bei 'endlose welle überlebt'.\nanmerkung: manche huds (z.b. Void UI) haben diese option automatisch eingeschaltet und ist nicht ausschaltbar bei diesen",
+
+    "bai_color": "Farben",
+    "bai_color_desc": "Ändere die farbe des feldes",
+
+    "bai_assault_box" : "Vorstoßfeld",
+    "bai_assault_box_desc" : "Ändert die Farbe des Vorstoßfeld",
+
+    "bai_assault_box_mutated" : "Vorstoßfeld (Mutatoren aktiv)",
+    "bai_assault_box_mutated_desc" : "Ändert die Vorstoßfeldfarbe (Mutatoren aktiv)",
+
+    "bai_holdout_box" : "Vorstoßfeld (Holdout)",
+    "bai_holdout_box_desc" : "Ändert die vorstoßfeldfarbe (Holdout)",
+
+    "bai_captain_box" : "Vorstoßfeld (Captain)",
+    "bai_captain_box_desc" : "Ändert die Vorstoßfeldfarbe (Wenn Captain anwesend)",
+
+    "bai_captain_box_mutated" : "Vorstoßfeld (Captain, Mutatoren aktiv)",
+    "bai_captain_box_mutated_desc" : "Ändert die Vorstoßfeldfarbe (Wenn Captain anwesend mit Mutatoren aktiv)",
+
+    "bai_endless_box": "Endloser Vorstoßfeld",
+    "bai_endless_box_desc": "Ändert die Endloser Vorstoßfeldfarbe",
+
+    "bai_endless_box_mutated": "Endloser Vorstoßfeld (Mutatoren aktiv)",
+    "bai_endless_box_mutated_desc": "Ändert die Endloser Vorstoßfeldfarbe (Mutatoren aktiv)",
+
+    "bai_survived_box": "Welle überlebt feld",
+    "bai_survived_box_desc": "Ändert Welle überlebt feldfarbe (Gilt auch für den Welle überlebt Banner in Versteck-Razzia)",
+
+    "bai_escape_box" : "Punk ohne Wiederkehr feld",
+    "bai_escape_box_desc": "Ändert Punk ohne Wiederkehr feldfarbe",
+
+    "bai_color_reset" : "Farbe zurücksetzen",
+    "bai_color_reset_desc" : "Setzt die Farbe zurück zum Spielestandart",
+    "bai_colors_reset" : "Farben zurücksetzen",
+    "bai_colors_reset_desc" : "Setzt die Farben zurück zum Spielestandart",
+
+    "bai_show_assault_states" : "Zeige Stand des Vorstoßes",
+    "bai_show_assault_states_desc" : "Zeigt Stand des Vorstoßes (Ruhephase, Vorbereitung zum Vorstoß, Vorstoß, Vorstoß aufrechterhalten und Abklingphase) im Vorstoßfeld an\nDiese Option funktioniert nicht bei einem Endlosem Vorstoß oder bei anwesenheit vom Captain",
+
+    "bai_assault_states" : "Stand des Vorstoßes",
+    "bai_assault_states_desc" : "Ändert die Vorstoßstatusfarbe und die sichtbarkeit im vorstoßfeld.\nAnzeige des Vorstoßstandes muß aktiv sein um zu funktionieren",
+
+    "bai_enabled" : "Enabled",
+    "bai_enabled_not_assault_desc" : "Wenn ausgewählt dann wird es in dem vorstoßfeld angezeigt. Wenn nicht dann wird der status nicht in dem vorstoßfeld angezeigt.",
+    "bai_enabled_assault_desc" : "Wenn ausgewählt dann wird es in dem vorstoßfeld angezeigt. Wenn nicht dann zeigt das vorstoßfeld den normalen vorstoßstatus an.",
+
+    "bai_show_advanced_assault_info" : "Erweiterte Überfall anzeigen",
+    "bai_show_advanced_assault_info_desc" : "Zeigt 'Verbleibende Zeit' und 'Verbleibender Spawn' Informationen in dem Vorstoßfeld\nDiese Informationen sind nicht verfügbar bei endlosen Angriffen und wenn der Captain anwesend ist.",
+    
+    "bai_advanced_assault_info" : "erweiterte vorstoßinformation",
+    "bai_advanced_assault_info_desc" : "ändert erweiterte vorstoßinformation.\n'zeigt erweiterte vorstoßinformation' mus aktiviert sein um zu funktionieren. manche optionen funktionieren nicht bei clients.",
+
+    "bai_show_time_left" : "Zeigt 'übrige zeit'",
+    "bai_show_time_left_desc" : "zeigt 'übrige zeit' im vorstoßfeld\ndiese option ist nicht genau wenn der host dies nicht aktiviert hat.",
+
+    "bai_time_format" : "Zeit Format",
+    "bai_time_format_desc" : "ändert zeit Format: angezeigt mit 'übrige zeit' information",
+    "bai_time_format_1" : "xx.xx (in s)",
+    "bai_time_format_2" : "'xx.xx' s",
+    "bai_time_format_3" : "xx (in s)",
+    "bai_time_format_4" : "'xx' s",
+    "bai_time_format_5" : "'xx' min 'yy' s",
+    "bai_time_format_6" : "xx:yy",
+
+    "bai_show_spawns_left" : "zeigt 'übrige Spawns'",
+    "bai_show_spawns_left_desc" : "zeigt 'übrige Spawns' im vorstoßfeld (Nur Host)",
+    
+    "hud_assault_alpha" : "POLIzeivorstoß",
+    "hud_assault_endless" : "Endloser Polizeivorstoß im Gange",
+    "hud_assault_endless_alpha" : "ENDLoser polizeivorstoß",
+    "hud_assault_survived_endless" : "Endlose Welle überlebt",
+    "hud_cover" : "bleibe in deckung",
+    
+    "hud_control" : "Ruhephase",
+    "hud_anticipation" : "Vorbereitung zum Vorstoß",
+    "hud_build" : "Vorstoß",
+    "hud_sustain" : "Vorstoß aufrechterhalten",
+    "hud_fade" : "Abklingen",
+    
+    "hud_overdue" : "Überfällig",
+    "hud_time_left" : "Verbleibende Zeit: ",
+    "hud_spawns_left" : "Verbleibende Spawns: ",
+    "hud_min" : "min",
+    "hud_s" : "s",
+
+    "hud_assault" : "VORSTOẞ",
+    "hud_endless" : "ENDLOS",
+    "hud_captain" : "CAPTAIN",
+    "hud_captain_active" : "KOMPLETT AUFGESTELLT",
+    "hud_survived" : "ÜBERLEBT"
+}

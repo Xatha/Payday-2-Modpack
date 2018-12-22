@@ -1,0 +1,17 @@
+{
+    "menu_id": "bai_mui_menu",
+    "parent_menu_id" : "bai_menu",
+    "title" : "bai_mui",
+    "description" : "bai_mui_desc",
+    "items": [
+        {
+            "type" : "toggle",
+            "id" : "bai_mui_assault_text_choice",
+            "title" : "bai_mui_assault_text",
+            "description" : "bai_mui_assault_text_desc",
+            "callback" : "callback_bai_mui_assault_text",
+            "value" : "assault_text",
+            "default_value" : true
+        }
+    ]
+}

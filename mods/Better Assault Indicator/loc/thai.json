@@ -1,0 +1,177 @@
+{
+    "bai_mod_title": "ตัวบ่งชี้การจู่โจมที่เจ๋งยิ่งกว่าเดิม",
+    "bai_mod_desc": "Better Assault Indicator: เปลี่ยนแปลงตัวเลือกของ Mod นี้",
+
+    "bai_compatibility" : "ความเข้ากันได้ของ HUD",
+    "bai_compatibility_desc" : "HUD Compatibility: คุณสามารถปรับแต่งความเข้ากันได้กับ HUD ที่คุณกำลังใช้อยู่\nเกมสามารถเด้งหลุดได้หากคุณเลือกความเข้ากันได้กับ HUD ผิดประเภท",
+    "bai_compatibility_1" : "ตรวจสอบอัตโนมัติ",
+    "bai_compatibility_2" : "เกมต้นฉบับ",
+    "bai_compatibility_3" : "Void UI",
+    "bai_compatibility_4" : "Nepgearsy HUD Reborn",
+	"bai_compatibility_5" : "HoloUI",
+    "bai_compatibility_6" : "SydneyHUD",
+    "bai_compatibility_7" : "PD:TH HUD Reborn",
+    "bai_compatibility_8" : "Restoration Mod",
+    "bai_compatibility_9" : "MUI",
+	
+    "bai_holoui" : "ตัวเลือก HoloUI",
+    "bai_holoui_desc" : "ใช้การตั้งค่าเฉพาะของ BAI กับ HoloUI",
+    "bai_holoui_update_text_color" : "อัปเดตสีของข้อความ",
+    "bai_holoui_update_text_color_desc" : "เมื่ออัปเดตสีของหน้าต่างแสดงการจู่โจมยังมีการอัปเดตสีข้อความอีกด้วย",
+
+    "bai_pdth_hud_reborn" : "ตัวเลือก PD:TH HUD Reborn",
+    "bai_pdth_hud_reborn_desc" : "ใช้การตั้งค่าเฉพาะของ BAI กับ PD:TH HUD Reborn",
+    "bai_pdth_hud_reborn_custom_text_color" : "เลือกสีข้อความแบบกำหนดเอง",
+    "bai_pdth_hud_reborn_custom_text_color_desc" : "เมื่อปิดตัวเลือกนี้ เกมจะทำการใช้สีข้อความจากไอคอนแสดงการจู่โจม",
+
+    "bai_restoration_mod" : "ตัวเลือก Restoration Mod",
+    "bai_restoration_mod_desc" : "ใช้การตั้งค่าเฉพาะของ BAI กับ Restoration Mod",
+    "bai_restoration_mod_alpha_tape_only" : "ตัวเลือกเฉพาะของ Alpha Tape",
+    "bai_restoration_mod_alpha_tape_only_desc" : "ตัวเลือกเหล่านี้จะส่งผลลัพธ์กับ 'Alpha Tape' ใน Restoration Mod",
+    "bai_restoration_mod_include_cover_text" : "รวมข้อความ 'เข้าที่กำบัง'",
+    "bai_restoration_mod_include_cover_text_desc" : "รวมข้อความ 'เข้าที่กำบัง' หรือ 'STAY IN THE COVER' ในหน้าต่างการจู่โจม",
+    "bai_restoration_mod_use_alpha_assault_text" : "ใช้ข้อความการจู่โจมแบบ Alpha",
+    "bai_restoration_mod_use_alpha_assault_text_desc" : "แสดงข้อความเวอร์ชันย่อข้อความให้สั้นลงของ 'อยู่ระหว่างการจู่โจมของตำรวจ'",
+    "bai_restoration_mod_use_alpha_endless_text" : "ใช้ข้อความการจู่โจมแบบไม่มีที่สิ้นสุดแบบ Alpha",
+    "bai_restoration_mod_use_alpha_endless_text_desc" : "แสดงข้อความเวอร์ชันย่อข้อความให้สั้นลงของ 'อยู่ระหว่างการจู่โจมไม่มีที่สิ้นสุดของตำรวจ'",
+    "bai_restoration_mod_early_alpha_corner_only" : "ตัวเลือกเฉพาะของ Early Alpha Corner",
+    "bai_restoration_mod_early_alpha_corner_only_desc" : "ตัวเลือกเหล่านี้จะส่งผลลัพธ์กับ 'Early Alpha Corner' ใน Restoration Mod",
+    "bai_c1" : "สีที่ 1",
+    "bai_c2" : "สีที่ 2",
+
+    "bai_mui" : "ตัวเลือก MUI",
+    "bai_mui_desc" : "ใช้การตั้งค่าเฉพาะของ BAI กับ MUI",
+    "bai_mui_assault_text" : "แสดงข้อความ 'จู่โจม' หรือ 'ASSAULT' แทนที่ชื่อระดับความยาก",
+    "bai_mui_assault_text_desc" : "เมื่อตัวเลือกนี้ถูกเปิดใช้งาน, แสดงข้อความ 'จู่โจม' หรือ 'ASSAULT' แทนที่ชื่อระดับความยากในแต่ละหน้าต่างแสดงการจู่โจม",
+	
+    "bai_button_ok" : "โอเค",
+    "bai_detected_wolfhud" : "ตรวจพบความเข้ากันไม่ได้กับ WolfHUD",
+    "bai_detected_wolfhud_desc" : "ตัวเลือก 'Advanced Assault Info' ของ WolfHUD ไม่สามารถใช้งานร่วมกับ BAI และได้ถูกปิดการใช้งานอัตโนมัติ. ตัวเลือกดังกล่าวได้ถูกเปิดใช้งานใน BAI โดยใช้ชื่อว่า 'ข้อมูลการจู่โจมขั้นสูง' และ 'สถานะการจู่โจม'",
+    "bai_detected_assault_states" : "ตรวจพบความเข้ากันไม่ได้กับ 'Assault States mod'",
+    "bai_detected_assault_states_desc" : "'Assault States mod' ไม่สามารถใช้งานร่วมกับ BAI. BAI มีตัวเลือกแสดงสถานะการจู่โจมรวมอยู่แล้ว. มันจะเป็นเรื่องที่ดีกว่าหาก 'Assault States mod' ถูกปิดการใช้งานหรือถูกลบออกจากโฟลเดอร์ mods",
+    "bai_detected_wave_survived" : "ตรวจพบความเข้ากันไม่ได้กับ 'Wave Survived mod'",
+    "bai_detected_wave_survived_desc" : "'Wave Survived mod' ไม่สามารถใช้งานร่วมกับ BAI. BAI มีตัวเลือกแสดงข้อความ 'คุณรอดชีวิตในรอบนี้!' ในหน้าต่างการจู่โจมรวมอยู่แล้ว. มันจะเป็นเรื่องที่ดีกว่าหาก 'Wave Survived mod' ถูกปิดการใช้งานหรือถูกลบออกจากโฟลเดอร์ mods",
+    "bai_detected_sydneyhud" : "ตรวจพบความเข้ากันไม่ได้กับ SydneyHUD",
+    "bai_detected_sydneyhud_desc" : "ตัวเลือก 'Enhanced Assault Banner' ของ SydneyHUD ไม่สามารถใช้งานร่วมกับ BAI และได้ถูกปิดการใช้งานอัตโนมัติ. ตัวเลือกดังกล่าวได้ถูกเปิดใช้งานใน BAI โดยใช้ชื่อว่า 'ข้อมูลการจู่โจมขั้นสูง' และ 'สถานะการจู่โจม'",	
+	
+    "bai_show_wave_survived": "แสดงแบนเนอร์ 'คุณรอดชีวิตในรอบนี้!'",
+    "bai_show_wave_survived_desc": "Show Wave Survived Banner: แสดงแบนเนอร์ 'คุณรอดชีวิตในรอบนี้!'(เหมือนกับในด่าน Safehouse Raid) ทุกครั้งหลังจากที่คุณและเพื่อนร่วมทีมรอดชีวิตจากช่วงการจู่โจมของตำรวจในแต่ละรอบ",
+    
+	"bai_hide_hostage_panel" : "ซ่อนหน้าต่างตัวประกัน",
+    "bai_hide_hostage_panel_assault_desc" : "ซ่อนหน้าต่างแสดงจำนวนตัวประกันระหว่างการจู่โจมปรกติ",
+    "bai_hide_hostage_panel_captain_desc" : "ซ่อนหน้าต่างแสดงจำนวนตัวประกันระหว่างช่วงที่กัปตันมาถึง",
+    "bai_hide_hostage_panel_endless_desc" : "ซ่อนหน้าต่างแสดงจำนวนตัวประกันระหว่างการจู่โจมไม่มีที่สิ้นสุด",
+
+    "bai_completely_hide_hostage_panel" : "ซ่อนหน้าต่างตัวประกันอย่างสมบูรณ์แบบ",
+    "bai_completely_hide_hostage_panel_desc" : "Completely Hide Hostage Panel: หน้าต่างแสดงจำนวนตัวประกันจะไม่แสดงหากคุณปรากฏตัวในด่าน\nการตั้งค่านี้ไม่สนใจตัวเลือก 'ซ่อนหน้าต่างตัวประกัน' ในช่อง การจู่โจมปรกติ, กัปตันและการจู่โจมไม่มีที่สิ้นสุด ถูกเปิดใช้งาน",
+    
+    "bai_show_difficulty_name_instead_of_skulls" : "แสดงชื่อระดับความยากแทนรูปหัวกะโหลก",
+    "bai_show_difficulty_name_instead_of_skulls_desc" : "แสดงชื่อระดับความยากแทนการแสดงรูปหัวกะโหลกในหน้าต่างการจู่โจม\nตัวเลือกนี้ใช้ไม่ได้กับโหมด Crime Spree",
+    
+	"bai_host_only" : "เฉพาะโฮสต์เท่านั้น",
+    "bai_client_only": "เฉพาะฝั่งไคลเอ็นต์เท่านั้น",
+    
+    "bai_trigger_endless_assault_client": "แสดงการจู่โจมไม่มีที่สิ้นสุดในด่านที่รองรับ",
+    "bai_trigger_endless_assault_client_desc": "แสดงการจู่โจมไม่มีที่สิ้นสุดของตำรวจในด่านที่รองรับ ในกรณีที่คุณเป็นผู้เล่นฝั่งไคลเอ็นต์(Client) การตั้งค่านี้จะถูกละเว้นผลลัพธ์หากคุณเป็นเจ้าของล๊อบบี้(Host) หรือหากเจ้าของล๊อบบี้มี mod ตัวนี้\nคุณอาจได้รับผลกระทบด้านการประมวลผลของเครื่องคอมพิวเตอร์บ้างหากเปิดใช้งานตัวเลือกนี้",
+    
+    "bai_r": "แดง",
+    "bai_r_desc" : "ตั้งค่าสีแดง (ค่าที่ถูกใช้จะเป็นค่าตัวเลขที่เป็นจำนวนเต็มเท่านั้น; เช่น: 28.55 -> ใช้ค่า 28)",
+    "bai_g": "เขียว",
+    "bai_g_desc" : "ตั้งค่าสีเขียว (ค่าที่ถูกใช้จะเป็นค่าตัวเลขที่เป็นจำนวนเต็มเท่านั้น; เช่น: 28.55 -> ใช้ค่า 28)",
+    "bai_b": "น้ำเงิน",
+    "bai_b_desc" : "ตั้งค่าสีน้ำเงิน (ค่าที่ถูกใช้จะเป็นค่าตัวเลขที่เป็นจำนวนเต็มเท่านั้น; เช่น: 28.55 -> ใช้ค่า 28)",
+
+    "bai_padlock_end_line" : "แสดงรูปภาพกุญแจแทนสัญลักษณ์ ///",
+    "bai_padlock_end_line_endless_assault_desc" : "แสดงรูปภาพกุญแจแทนสัญลักษณ์ /// ในการจู่โจมไม่มีที่สิ้นสุด\nหมายเหตุ: Huds บางประเภท (เช่น Void UI) มีตัวเลือกนี้เปิดเอาไว้เป็นค่าเริ่มต้นและไม่สามารถถูกปิดได้",
+    "bai_padlock_end_line_endless_wave_survived_desc" : "แสดงรูปภาพกุญแจแทนสัญลักษณ์ /// ใน 'คุณรอดชีวิตในรอบนี้!'\nหมายเหตุ: Huds บางประเภท (เช่น Void UI) มีตัวเลือกนี้เปิดเอาไว้เป็นค่าเริ่มต้นและไม่สามารถถูกปิดได้",	
+    
+    "bai_color": "สี",
+    "bai_color_desc": "เปลี่ยนสีหน้าต่างแสดงสถานะการจู่โจมของตำรวจ",
+    
+    "bai_assault_box": "หน้าต่างการจู่โจม",
+    "bai_assault_box_desc": "Assault Box: เปลี่ยนสีหน้าต่างแสดงสถานะการจู่โจมของตำรวจ",
+    
+    "bai_assault_box_mutated" : "หน้าต่างการจู่โจม (เมื่อเปิดโหมด Mutators)",
+    "bai_assault_box_mutated_desc" : "Assault Box (Mutators On): เปลี่ยนสีหน้าต่างแสดงสถานะการจู่โจมของตำรวจ (เมื่อเปิดโหมด Mutators)",
+	
+	"bai_holdout_box" : "หน้าต่างการจู่โจม (Holdout)",
+    "bai_holdout_box_desc" : "Assault Box (Holdout): เปลี่ยนสีหน้าต่างแสดงสถานะการจู่โจมของตำรวจ (โหมด Holdout)",
+
+    "bai_captain_box" : "หน้าต่างการจู่โจม (กัปตัน)",
+    "bai_captain_box_desc" : "Assault Box (Captain): เปลี่ยนสีหน้าต่างแสดงสถานะการจู่โจมของตำรวจ (เมื่อกัปตันมาถึง)",
+
+    "bai_captain_box_mutated" : "หน้าต่างการจู่โจม (กัปตัน, เมื่อเปิดโหมด Mutators)",
+    "bai_captain_box_mutated_desc" : "Assault Box (Captain, Mutators on): เปลี่ยนสีหน้าต่างแสดงสถานะการจู่โจมของตำรวจ (เมื่อกัปตันมาถึงและมีการเปิดโหมด mutators)",
+	
+    "bai_endless_box": "หน้าต่างการจู่โจมไม่มีที่สิ้นสุด",
+    "bai_endless_box_desc": "Endless Assault Box: เปลี่ยนสีหน้าต่างแสดงสถานะการจู่โจมไม่มีที่สิ้นสุดของตำรวจ",
+	
+    "bai_endless_box_mutated": "หน้าต่างการจู่โจมไม่มีที่สิ้นสุด (เมื่อเปิดโหมด Mutators)",
+    "bai_endless_box_mutated_desc": "เปลี่ยนสีหน้าต่างแสดงสถานะการจู่โจมไม่มีที่สิ้นสุดของตำรวจ (เมื่อเปิดโหมด Mutators)",
+    
+    "bai_survived_box": "หน้าต่าง 'คุณรอดชีวิตในรอบนี้!'",
+    "bai_survived_box_desc": "Wave Survived Box: เปลี่ยนสีหน้าต่างแสดงสถานะ 'คุณรอดชีวิตในรอบนี้!' (และมีผลกับหน้าต่างแสดงสถานะ 'คุณรอดชีวิตในรอบนี้!' ในด่าน Safehouse Raid อีกด้วย)",
+    
+    "bai_escape_box" : "หน้าต่างหนทางไม่มีวันย้อนกลับ",
+    "bai_escape_box_desc": "Point Of No Return Box: เปลี่ยนสีหน้าต่างแสดงสถานะหนทางไม่มีวันย้อนกลับ",
+
+    "bai_color_reset": "รีเซ็ตสี",
+    "bai_color_reset_desc" : "รีเซ็ตสีให้เป็นค่าเริ่มต้น",
+    "bai_colors_reset" : "รีเซ็ตสีทั้งหมด",
+    "bai_colors_reset_desc" : "รีเซ็ตสีทั้งหมดให้เป็นค่าเริ่มต้น",
+	
+    "bai_show_assault_states" : "แสดงสถานะการจู่โจม",
+    "bai_show_assault_states_desc" : "แสดงสถานะการจู่โจม (ควบคุม, เตรียมจู่โจม, เข้าจู่โจม, จู่โจมต่อเนื่อง และ ถอนกำลัง) ในหน้าต่างการจู่โจม\nตัวเลือกนี้ไม่สามารถใช้ได้กับการจู่โจมไม่มีที่สิ้นสุดของตำรวจและเมื่อกัปตันปรากฏตัวในด่าน",
+	
+    "bai_assault_states" : "สถานะการจู่โจม",
+    "bai_assault_states_desc" : "Assault States: เปลี่ยนสีสถานะการจู่โจมและแสดงชื่อสถานะการจู่โจมในหน้าต่างการจู่โจม\nตัวเลือกแสดงสถานะการจู่โจมจำเป็นต้องถูกเปิดใช้งานเพื่อทำให้ส่งผลลัพธ์",
+	
+    "bai_enabled" : "เปิดใช้งาน",
+    "bai_enabled_not_assault_desc" : "หากถูกเลือก, จะมีการแสดงผลลัพธ์ในหน้าต่างการจู่โจม\nหากไม่ถูกเลือก, หน้าต่างการจู่โจมจะถูกปิดการแสดงผลลัพธ์",
+    "bai_enabled_assault_desc" : "หากถูกเลือก, จะมีการแสดงผลลัพธ์ในหน้าต่างการจู่โจม\nหากไม่ถูกเลือก, หน้าต่างการจู่โจมจะแสดงสถานะการจู่โจมแบบปรกติแทน",
+
+    "bai_show_advanced_assault_info" : "แสดงข้อมูลการจู่โจมขั้นสูง",
+    "bai_show_advanced_assault_info_desc" : "Show Advanced Assault Info: แสดงข้อมูล 'จำนวนตำรวจที่เสริมกำลังได้' และ 'เวลาจู่โจมที่เหลือ' ในหน้าต่างการจู่โจม\nตัวเลือกนี้ไม่สามารถใช้ได้กับการจู่โจมไม่มีที่สิ้นสุดของตำรวจและเมื่อกัปตันปรากฏตัวในด่าน",
+
+    "bai_advanced_assault_info" : "ข้อมูลการจู่โจมขั้นสูง",
+    "bai_advanced_assault_info_desc" : "Advanced Assault Info: เปลี่ยนแปลงข้อมูลการจู่โจมขั้นสูง.\n'แสดงข้อมูลการจู่โจมขั้นสูง' จำเป็นต้องถูกเปิดใช้งานเพื่อทำให้ส่งผลลัพธ์. มีเพียงบางตัวเลือกที่ส่งผลกับฝั่งไคลเอ็นต์",
+
+    "bai_show_time_left" : "แสดง 'เวลาจู่โจมที่เหลือ'",
+    "bai_show_time_left_desc" : "Show 'Time Left': แสดง 'เวลาจู่โจมที่เหลือ' ในหน้าต่างการจู่โจม\n ตัวเลือกนี้ไม่แสดงผลที่เที่ยงตรงในฝั่งไคลเอ็นต์หากโฮสต์ไม่ได้เปิดใช้ตัวเลือกนี้",
+    
+    "bai_time_format" : "รูปแบบเวลา",
+    "bai_time_format_desc" : "Time Format: เปลี่ยนแปลงรูปแบบเวลาที่แสดงในตัวเลือก 'เวลาจู่โจมที่เหลือ'",
+    "bai_time_format_1" : "xx.xx (ในหน่วยวินาที)",
+    "bai_time_format_2" : "'xx.xx' วินาที",
+    "bai_time_format_3" : "xx (ในหน่วยวินาที)",
+    "bai_time_format_4" : "'xx' วินาที",
+    "bai_time_format_5" : "'xx' นาที 'yy' วินาที",
+    "bai_time_format_6" : "xx:yy",
+
+    "bai_show_spawns_left" : "แสดง 'จำนวนตำรวจที่เสริมกำลังได้'",
+    "bai_show_spawns_left_desc" : "Show 'Spawns Left': แสดง 'จำนวนตำรวจที่เสริมกำลังได้' ในหน้าต่างการจู่โจม (เฉพาะโฮสต์เท่านั้น)",
+	
+    "hud_assault_alpha" : "การจู่โจมของตำรวจ",
+    "hud_assault_endless" : "อยู่ระหว่างการจู่โจมไม่มีที่สิ้นสุดของตำรวจ",
+	"hud_assault_endless_alpha" : "การจู่โจมไม่มีที่สิ้นสุดของตำรวจ",
+    "hud_assault_survived_endless" : "คุณรอดชีวิตในรอบนี้!",  
+    "hud_cover" : "เข้าที่กำบัง",
+	
+    "hud_control" : "ควบคุม",
+    "hud_anticipation" : "เตรียมจู่โจม",
+    "hud_build" : "เข้าจู่โจม",
+    "hud_sustain" : "จู่โจมต่อเนื่อง",
+    "hud_fade" : "ถอนกำลัง",
+	
+    "hud_overdue" : "เกินเวลา",
+    "hud_time_left" : "เหลือเวลา: ",
+    "hud_spawns_left" : "ศัตรูที่เหลือ: ",
+    "hud_min" : "นาที",
+    "hud_s" : "วินาที",
+	
+    "hud_assault" : "จู่โจม",
+    "hud_endless" : "ไม่มีที่สิ้นสุด",
+    "hud_captain" : "กับตัน",
+	"hud_captain_active" : "รวมพลพร้อมสู้",
+    "hud_survived" : "รอดชีวิต"
+}

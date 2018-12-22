@@ -1,0 +1,100 @@
+{
+    "menu_id": "bai_restoration_mod_assault_box_menu",
+    "parent_menu_id" : "bai_restoration_mod_menu",
+    "title" : "bai_assault_box",
+    "description" : "bai_assault_box_desc",
+    "focus_changed_callback": "BAIRestorationModAssaultBoxChangedFocus",
+    "items": [
+        {
+            "type": "multiple_choice",
+            "id": "bai_assault_box",
+            "description": "bai_assault_box_desc",
+            "title": "",
+            "items": [
+                "bai_assault_box"
+            ],
+            "value": "bai_assault_box"
+        },
+        {
+            "type": "slider",
+            "id": "bai_restoration_mod_c1_assault_box_r_choice",
+            "title": "bai_r",
+            "description": "bai_r_desc",
+            "callback": "callback_bai_restoration_mod_c1_assault_box_r",
+            "default_value": 255,
+            "min": 0,
+            "max": 255,
+            "step": 1
+        },
+        {
+            "type": "slider",
+            "id": "bai_restoration_mod_c1_assault_box_g_choice",
+            "title": "bai_g",
+            "description": "bai_g_desc",
+            "callback": "callback_bai_restoration_mod_c1_assault_box_g",
+            "default_value": 0,
+            "min": 0,
+            "max": 255,
+            "step": 1
+        },
+        {
+            "type": "slider",
+            "id": "bai_restoration_mod_c1_assault_box_b_choice",
+            "title": "bai_b",
+            "description": "bai_b_desc",
+            "callback": "callback_bai_restoration_mod_c1_assault_box_b",
+            "default_value": 0,
+            "min": 0,
+            "max": 255,
+            "step": 1
+        },
+        {
+            "type": "divider",
+            "size": 32
+        },
+        {
+            "type": "slider",
+            "id": "bai_restoration_mod_c2_assault_box_r_choice",
+            "title": "bai_r",
+            "description": "bai_r_desc",
+            "callback": "callback_bai_restoration_mod_c2_assault_box_r",
+            "default_value": 0,
+            "min": 0,
+            "max": 255,
+            "step": 1
+        },
+        {
+            "type": "slider",
+            "id": "bai_restoration_mod_c2_assault_box_g_choice",
+            "title": "bai_g",
+            "description": "bai_g_desc",
+            "callback": "callback_bai_restoration_mod_c2_assault_box_g",
+            "default_value": 0,
+            "min": 0,
+            "max": 255,
+            "step": 1
+        },
+        {
+            "type": "slider",
+            "id": "bai_restoration_mod_c2_assault_box_b_choice",
+            "title": "bai_b",
+            "description": "bai_b_desc",
+            "callback": "callback_bai_restoration_mod_c2_assault_box_b",
+            "default_value": 255,
+            "min": 0,
+            "max": 255,
+            "step": 1
+        },
+        {
+            "type": "divider",
+            "size": 32
+        },
+        {
+            "type": "button",
+            "id": "bai_restoration_mod_assault_colors_reset_choice",
+            "title": "bai_colors_reset",
+            "description": "bai_colors_reset_desc",
+            "callback": "callback_bai_restoration_mod_assault_box_colors_reset"
+        }
+    ]
+}

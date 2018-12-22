@@ -1,0 +1,122 @@
+{
+    "menu_id": "bai_assault_box_menu",
+    "parent_menu_id" : "bai_menu",
+    "title" : "bai_assault_box",
+    "description" : "bai_assault_box_desc",
+    "focus_changed_callback": "BAIAssaultBoxChangedFocus",
+    "items": [
+        {
+            "type": "multiple_choice",
+            "id": "bai_assault_box",
+            "description": "bai_assault_box_desc",
+            "title": "",
+            "items": [
+                "bai_assault_box"
+            ],
+            "value": "bai_assault_box"
+        },
+        {
+            "type": "slider",
+            "id": "bai_assault_box_r_choice",
+            "title": "bai_r",
+            "description": "bai_r_desc",
+            "callback": "callback_bai_assault_box_r",
+            "default_value": 255,
+            "min": 0,
+            "max": 255,
+            "step": 1
+        },
+        {
+            "type": "slider",
+            "id": "bai_assault_box_g_choice",
+            "title": "bai_g",
+            "description": "bai_g_desc",
+            "callback": "callback_bai_assault_box_g",
+            "default_value": 0,
+            "min": 0,
+            "max": 255,
+            "step": 1
+        },
+        {
+            "type": "slider",
+            "id": "bai_assault_box_b_choice",
+            "title": "bai_b",
+            "description": "bai_b_desc",
+            "callback": "callback_bai_assault_box_b",
+            "default_value": 0,
+            "min": 0,
+            "max": 255,
+            "step": 1
+        },
+        {
+            "type": "divider",
+            "size": 32
+        },
+        {
+            "type": "multiple_choice",
+            "id": "bai_assault_box_mutated",
+             "description": "bai_assault_box_mutated_desc",
+            "title": "",
+            "items": [
+                "bai_assault_box_mutated"
+            ],
+            "value": "bai_assault_box_mutated"
+        },
+        {
+            "type": "slider",
+            "id": "bai_assault_box_r_mutated_choice",
+            "title": "bai_r",
+            "description": "bai_r_desc",
+            "callback": "callback_bai_assault_box_r_mutated",
+            "default_value": 211,
+            "min": 0,
+            "max": 255,
+            "step": 1
+        },
+        {
+            "type": "slider",
+            "id": "bai_assault_box_g_mutated_choice",
+            "title": "bai_g",
+            "description": "bai_g_desc",
+            "callback": "callback_bai_assault_box_g_mutated",
+            "default_value": 133,
+            "min": 0,
+            "max": 255,
+            "step": 1
+        },
+        {
+            "type": "slider",
+            "id": "bai_assault_box_b_mutated_choice",
+            "title": "bai_b",
+            "description": "bai_b_desc",
+            "callback": "callback_bai_assault_box_b_mutated",
+            "default_value": 255,
+            "min": 0,
+            "max": 255,
+            "step": 1
+        },
+        {
+            "type": "divider",
+            "size": 32
+        },
+        {
+            "type": "toggle",
+            "id" : "bai_hide_hostage_panel_during_assault_choice",
+            "title" : "bai_hide_hostage_panel",
+            "description" : "bai_hide_hostage_panel_assault_desc",
+            "callback" : "callback_bai_hide_hostage_panel_during_assault",
+            "default_value" : false
+        },
+        {
+            "type": "divider",
+            "size": 32
+        },
+        {
+            "type": "button",
+            "id": "bai_assault_colors_reset_choice",
+            "title": "bai_colors_reset",
+            "description": "bai_colors_reset_desc",
+            "callback": "callback_bai_assault_box_colors_reset"
+        }
+    ]
+}

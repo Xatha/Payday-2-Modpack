@@ -1,0 +1,17 @@
+{
+    "menu_id": "bai_holoui_menu",
+    "parent_menu_id" : "bai_menu",
+    "title" : "bai_holoui",
+    "description" : "bai_holoui_desc",
+    "items": [
+        {
+            "type" : "toggle",
+            "id" : "bai_holoui_update_text_color_choice",
+            "title" : "bai_holoui_update_text_color",
+            "description" : "bai_holoui_update_text_color_desc",
+            "callback" : "callback_bai_holoui_update_text_color",
+            "value" : "update_text_color",
+            "default_value" : false
+        }
+    ]
+}

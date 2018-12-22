@@ -1,0 +1,41 @@
+{
+    "menu_id": "bai_advanced_assault_info_menu",
+    "parent_menu_id" : "bai_menu",
+    "title" : "bai_advanced_assault_info",
+    "description" : "bai_advanced_assault_info_desc",
+    "focus_changed_callback": "BAIAdvancedAssaultInfoChangedFocus",
+    "items": [
+        {
+            "type" : "toggle",
+            "id" : "bai_show_time_left_choice",
+            "title" : "bai_show_time_left",
+            "description" : "bai_show_time_left_desc",
+            "callback" : "callback_bai_show_time_left",
+            "default_value" : true
+        },
+        {
+            "type": "multiple_choice",
+            "id": "bai_time_format_choice",
+            "title": "bai_time_format",
+            "description" : "bai_time_format_desc",
+            "callback": "callback_bai_time_format",
+            "items": [
+                "bai_time_format_1",
+                "bai_time_format_2",
+                "bai_time_format_3",
+                "bai_time_format_4",
+                "bai_time_format_5",
+                "bai_time_format_6"
+            ],
+            "value": "bai_time_format_1"
+        },
+        {
+            "type" : "toggle",
+            "id" : "bai_show_spawns_left_choice",
+            "title" : "bai_show_spawns_left",
+            "description" : "bai_show_spawns_left_desc",
+            "callback" : "callback_bai_show_spawns_left",
+            "default_value" : true
+        }
+    ]
+}

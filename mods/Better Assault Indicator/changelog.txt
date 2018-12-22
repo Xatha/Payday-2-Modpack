@@ -1,0 +1,260 @@
+r57 (09. 12. 2018):
+MUI: Fixed crashing when someone joined your game when you were client
+MUI: Fixed an issue where BAI would behave as host when you were client, resulting in weird behavior in the Assault Box
+
+r56 (08. 12. 2018):
+Added additional submenu for MUI
+Further code cleanup and code improvements
+MUI: Fixed a crash when you changed a value in the mod options during a heist
+
+r55 (25. 11. 2018):
+Added support for MUI
+Code cleanup and code improvements
+PD:TH HUD Reborn: Fixed crashing when captain fully assembled
+PD:TH HUD Reborn: Fixed PONR Timer not changing to user's defined color
+Restoration Mod: Optimized code
+Restoration Mod: Fixed errors in submenus
+
+r54 (18. 11. 2018):
+Added support for Restoration Mod
+Added warnings when BAI detected incompatible mods running in the game
+PD:TH HUD Reborn: Fixed crashing when game triggered PONR
+
+r53 (10. 11. 2018):
+Disabled endless assault detection on Hell's Island
+Added support for SydneyHUD
+"Anticipation" state is no longer send by host. Clients can still see "Anticipation" state normally
+PD:TH HUD Reborn: Fixed "Completely hide hostage panel" option not working correctly
+PD:TH HUD Reborn: Optimized code
+Void UI: Fixed PONR Banner not appearing
+
+r52 (02. 11. 2018):
+Removed ;)
+
+r51 (25. 10. 2018):
+;)
+
+r50 (10. 10. 2018):
+Added support for PD:TH HUD Reborn
+Fixed Padlock icon in 'Endless Wave Survived' not showed when enabled
+Fixed "Point of no Return Box" submenu wasn't visible
+Void UI: Possible fix for the hostage panel not hiding when captain came on the assault start
+HoloUI: Fixed wrong wave counter
+HoloUI: Fixed hostage panel not hiding
+
+r49 (14. 09. 2018):
+Assault box in the Holdout mission is now skinable
+Fixed spamming Assault States (this fix should improve your framerate and online experience a bit)
+Time Left is now visible also on client
+
+r48 (21. 08. 2018):
+Fixed compatibility with HoloUI and Void UI
+
+r47 (19. 08. 2018):
+Fixed compatibility with Nepgearsy HUD Reborn
+Fixed assault text stucked after "Build" text when you were playing Crime Spree
+Shacklethorne House now properly shows Endless Assault on client (if you drop-in before the endless assault)
+
+r46 (18. 08. 2018):
+Fixed crashing at the end of an assault
+Made mod compatible with Holdout gamemode
+
+r45 (09. 08. 2018):
+Improved compatibility with HoloUI
+Added russian translation
+Void UI: Fixed Assault box icon not animating after assault
+
+r44 (30. 07. 2018):
+Made mod compatible with Void UI and Nepgearsy HUD Reborn
+Fixed an issue where the hostage panel could be visible again after an assault
+Fixed an issue where Wave Survived Box in Safehouse Raid could change to "Control" state after wave and host didn't have this mod installed
+Potential fix for 'Time Left' being off when playing Crime Spree with Assault Extender modifier
+Fixed errors in mod options
+
+r43 (23. 07. 2018):
+You can show/hide 'Time Left' and 'Spawns Left' and change 'Time Format' in Advanced Assault Info menu
+Fixed error in the assault box when you are client and has Advanced Assault Info on
+
+r42 (13. 07. 2018):
+Added support for Advanced Assault Info
+
+r41 (09. 07. 2018):
+You can completely hide hostage panel
+Reworked hostage panel hiding and now you can hide hostage panel on normal assault, when Captain arrived and on endless assault
+
+r40 (06. 07. 2018):
+Fixed a crash in the Birth of Sky if you were a client
+
+r39 (05. 07. 2018):
+Added french translation
+Fixed a typo in English translation
+
+r38 (02. 07. 2018):
+Added italian translation
+You can disable any assault state in mod options
+Reduced save file size by removing unused variables
+Greatly improved Assault Box change when you changed mod options in mission
+Fixed issues with "Show Assault States" option on Safehouse Raid
+
+r37 (19. 06. 2018):
+Fixed crashing on startup with Thai language enabled
+
+r36 (19. 06. 2018):
+Added German language
+Fixed loading languages supported by the game and mod
+Fixed crashing when the game was set to different language than mod supported and failed fallback to English
+Fixed loading Assault State colors; now they are loaded correctly
+Fixed loading mutated colors in mod options
+Fixed assault banner not updated after first endless assault on Beneath the Mountain with "Show Assault States" option on and host didn't have this mod installed
+Fixed assault banner with padlock image in control and anticipation state after surviving endless assault
+Fixed again a bug which caused sometimes text not appearing in Control and Anticipation state
+Disabled showing assault states on "Enemy Spawner" custom heist
+
+r35 (16. 06. 2018):
+Fixed an issue where client could see assault states when host didn't have this mod installed
+Fixed an issue where hostage box didn't show after surviving endless assault with "Show Assault States" option on and "Show Wave Survived banner" option off
+
+r34 (14. 06. 2018):
+Fixed a bug where client could not see assault states when host has this mod installed
+Fixed an issue where client check for assault states after defeating Captain, when host only can do that
+
+r33 (14. 06. 2018):
+Improved detection of anticipation state
+Improved detection of control state
+Fixed a bug which caused sometimes text not appearing in Control and Anticipation state
+Fixed assault box not updated with assault state after surviving first endless assault on Beneath the Mountain
+Fixed assault box not updated with assault state after defeating Captain
+
+r32 (13. 06. 2018):
+Added support for Assault States
+
+r31 (01. 06. 2018):
+Fixed spamming in the BLT log
+
+r30 (31. 05. 2018):
+Added Chinese language
+Fixed "ENDLESS WAVE SURVIVED" showed after Captain broke Endless Assault
+Fixed not fully colored escape panel when you changed its color
+
+r29 (09. 05. 2018):
+Fixed "ENDLESS WAVE SURVIVED" not showing after surviving endless assault
+Fixed padlock image on normal assault after endless assault
+Fixed showing normal assault image when surviving endless assault
+Improved behavior of changing color when you are in game
+
+r28 (05. 05. 2018):
+Improved compatibility with mods which also changes Assault Banner
+Fixed difficulty name showed in Assault Banner when playing Crime Spree
+Prevented crashes
+Boiling Point, Beneath the Mountain, Ukrainian Job and The Bomb: Dockyard now properly shows Endless Assault on client (if you drop-in before the endless assault)
+
+r27 (28. 04. 2018):
+Removed debugging function
+Fixed loading saved colors; now they are loaded correctly
+Fixed loading values could overwrite values which were not in the file and causing game crash with nil value
+You can also now change Escape box color
+
+r26 (28. 04. 2018):
+Redefined mod options
+Prevented crashes in mod options
+You can also now change color of Captain and when the game has turned on mutators
+Hoxton Breakout Day 2, Birth of Sky, Golden Grin Casino and Slaughterhouse now properly shows Endless Assault on client (if you drop-in before the endless assault)
+
+r25 (25. 04. 2018):
+You can show difficulty name in the assault box instead of skulls
+Hoxton Breakout Day 1, Prison Nightmare, Aftershock and Goat Simulator Heist Day 2 now properly shows Endless Assault on client (if you drop-in before the endless assault)
+
+r24 (22. 04. 2018):
+First World Bank, Green Bridge, Diamond Heist, Undercover and The Biker Heist Day 1 now properly shows Endless Assault on client (if you drop-in before the endless assault)
+
+r23 (21. 04. 2018):
+Fixed a crash when client asked if there is an endless assault in progress
+Improved mod options
+Reservoir Dogs Day 1 now properly shows Endless Assault on client (if you drop-in before the endless assault)
+
+r22 (20. 04. 2018):
+Fixed crashes when playing multiplayer
+Brooklyn 10-10 now properly shows Endless Assault on client (if you drop-in before the endless assault)
+
+r21 (19. 04. 2018):
+Fixed next normal assault showed as endless when capitan came on endless assault
+
+r20 (18. 04. 2018):
+Fixed normal assault showed as endless on Beneath the Mountain
+
+r19 (17. 04. 2018):
+Updated identifier
+
+r18 (17. 04. 2018):
+Added preview boxes when changing color
+Changed mod option box color
+
+r17 (10. 04. 2018):
+Fixed loading mod settings
+Fixed instances where ENDLESS WAVE SURVIVED would be shown instead of WAVE SURVIVED
+Added support for Escape: Garage, Escape: Cafe and Escape: Cafe (Day)
+You can now change banner color
+
+r16 (06. 04. 2018):
+Fixed a crash when mod tried to load Thai language
+
+r15 (05. 04. 2018):
+Hiding hostage panel during an endless assault can be toggled in the mod menu
+Fixed an issue where the game would overwrite your mod option after a heist
+
+r14 (05. 04. 2018):
+Fixed a typo which prevented mod menu from appearing
+
+r13 (05. 04. 2018):
+Added mod menu
+Added ENDLESS WAVE SURVIVED string (Wave Survived Banner must be toggled on to work)
+Wave Survived Banner can be toggled in the mod menu
+Fixed something
+
+r12 (16. 03. 2018):
+Fixed hostage panel overlapping casing banner when starting a heist
+Fixed endless assault on Framing Frame Day 1/Art Gallery when it's not
+Added Thai language (thanks for NewPJzuza for translation)
+
+r11 (14. 03. 2018):
+These missions will show Endless Assault regardless if you are client or host:
+* Safe House Nightmare
+* The Biker Heist Day 2
+* Cursed Kill Room
+Will add more missions later
+Little optimization
+
+r10 (04. 02. 2018):
+Made a fix on Beneath the Mountain when the game sometimes forget end the endless assault
+
+r9 (31. 08. 2017):
+Added mod icon
+
+r8 (31. 08. 2017):
+Fixed mod.txt
+
+r7 (01. 08. 2017):
+Fixed when second assault on WatchDogs Day 2 is endless if you were client
+Hostage panel hides on endless assault
+
+r6 (27. 07. 2017):
+Code optimization
+Fixed issues on Safehouse Raid
+
+r5 (07. 07. 2017):
+Code cleanup
+Minor code optimization
+
+r4 (05. 05. 2017):
+Endless Assault will have now a padlock icon (same as for Defeat The Capitan)
+Fixed clients having yellow assault banners when they drop-in to an endless assault
+
+r3 (14. 03. 2017):
+Optimized code
+Fixed yellow assault banner when you are in the mutated lobby
+
+r2 (12. 03. 2017):
+Endless Indicator will trigger on the client IF host have it
+
+r1 (06. 03. 2017):
+First Release

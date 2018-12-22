@@ -1,0 +1,177 @@
+{
+    "bai_mod_title" : "Улучшенные индикаторы осады",
+    "bai_mod_desc" : "Настройки мода",
+
+    "bai_compatibility" : "Совместимость с другими модами интрефейса",
+    "bai_compatibility_desc" : "Здесь вы можете выбрать режим совместимости с другими модами,изменяющие интерфейс.\n Неправильный выбор совместимости может привести игру к вылету!",
+    "bai_compatibility_1" : "Автообнаружение модов",
+    "bai_compatibility_2" : "Стандартный",
+    "bai_compatibility_3" : "Void UI",
+    "bai_compatibility_4" : "Nepgearsy HUD Reborn",
+    "bai_compatibility_5" : "HoloUI",
+    "bai_compatibility_6" : "SydneyHUD",
+    "bai_compatibility_7" : "PD:TH HUD Reborn",
+    "bai_compatibility_8" : "Restoration Mod",
+    "bai_compatibility_9" : "MUI",
+    
+    "bai_mui" : "Настройки MUI",
+    "bai_mui_desc" : "Применить настройки BAI для MUI",
+    "bai_mui_assault_text" : "Показывать текст 'Осада' вместо сложности",
+    "bai_mui_assault_text_desc" : "Когда включено, будет показывать текст 'Осада' вместо названия сложности на панели осады.",
+
+    "bai_holoui" : "Настройки HoloUI",
+    "bai_holoui_desc" : "Применить настройки Мода для HoloUI",
+    "bai_holoui_update_text_color" : "Обновить цвет текста",
+    "bai_holoui_update_text_color_desc" : "Обновлять цвет текста при обновлении панели осады",
+
+    "bai_pdth_hud_reborn" : "Настройки PD:TH HUD Reborn",
+    "bai_pdth_hud_reborn_desc" : "Применить настройки BAI к PD:TH HUD Reborn",
+    "bai_pdth_hud_reborn_custom_text_color" : "Использовать кастомный цвет текста",
+    "bai_pdth_hud_reborn_custom_text_color_desc" : "Когда выключено, игра будет использовать цвет текста как цвет иконки осады.",
+    
+    "bai_restoration_mod" : "Настройки Restoration Mod",
+    "bai_restoration_mod_desc" : "Применить настройки Мода для Restoration Mod",
+    "bai_restoration_mod_alpha_tape_only" : "Только для Alpha Tape",
+    "bai_restoration_mod_alpha_tape_only_desc" : "Эти настройки только повлияют на 'Alpha Tape' в Restoration mod",
+    "bai_restoration_mod_include_cover_text" : "Включить сообщение об укрытии",
+    "bai_restoration_mod_include_cover_text_desc" : "Добавляет строчку 'ОСТАВАЙТЕСЬ В УКРЫТИИ' в баннер осады",
+    "bai_restoration_mod_use_alpha_assault_text" : "Использовать текст осады из Alpha",
+    "bai_restoration_mod_use_alpha_assault_text_desc" : "Использует более короткую версию текста'Осада в процессе'",
+    "bai_restoration_mod_use_alpha_endless_text" : "Использовать текст бесконченой осады из Alpha",
+    "bai_restoration_mod_use_alpha_endless_text_desc" : "Использует более короткую версию текста 'БЕСКОНЕЧНАЯ ОСАДА В ПРОЦЕССЕ'",
+    "bai_restoration_mod_early_alpha_corner_only" : "Только для Alpha Corner ",
+    "bai_restoration_mod_early_alpha_corner_only_desc" : "Эти настройки только повлияют на 'Early Alpha Corner' в Restoration mod",
+    "bai_c1" : "Ц1",
+    "bai_c2" : "Ц2",
+
+    "bai_button_ok" : "OK",
+    "bai_detected_wolfhud" : "Обнаружена несовместимость с WolfHUD",
+    "bai_detected_wolfhud_desc" : "Опция WolfHUD'а 'Подробная информация об осаде'  несовместима BAI и была отключена. Эта опция включена в BAI под названием 'Подробная информация об осаде' and 'Фазы Осады.",
+    "bai_detected_assault_states" : "Обнаружена несовместимость с 'Assault States mod'",
+    "bai_detected_assault_states_desc" : "'Assault States mod' несовместим c BAI. BAI имеет встроенную опцию для фаз осад. Рекомендуется отключить или удалить 'Assault States mod'.",
+    "bai_detected_wave_survived" : "Обнаружена несовместимость с 'Wave Survived mod'",
+    "bai_detected_wave_survived_desc" : "'Wave Survived mod' несовместим c BAI. BAI имеет встроенную опцию для показа банера с текстом 'Осада отбита'. Рекомендуется отключить или удалить 'Wave Survived mod'.",
+    "bai_detected_sydneyhud" : "Обнаружена несовместимость с SydneyHUD",
+    "bai_detected_sydneyhud_desc" : "Опция SydneyHUD'а 'Enhanced Assault Banner' несовместима с BAI и была отключена. Эта опция доступна в BAI под названием 'Подробная информация об осаде' and 'Фазы осады'.",
+
+    "bai_show_wave_survived" : "Показывать статус 'Осада Отбита' ",
+    "bai_show_wave_survived_desc" : "Показывать статус 'Осада Отбита' (из Защиты убежища) каждый раз, когда вы и ваша команда выживаете полицескую осаду",
+
+    "bai_hide_hostage_panel" : "Скрыть панель заложников",
+    "bai_hide_hostage_panel_assault_desc" : "Скрыть панель заложников во время обычной осады",
+    "bai_hide_hostage_panel_captain_desc" : "Скрыть панель заложников во время обычной осады, когда появляется Капитан",
+    "bai_hide_hostage_panel_endless_desc" : "Скрыть панель заложников во время бесконечной осады",
+
+    "bai_completely_hide_hostage_panel" : "Полностью скрыть панель заложников",
+    "bai_completely_hide_hostage_panel_desc" : "Панель заложников не будет видна, когда вы появитесь в игре.\nЭта опция игнорирует опцию 'Скрыть панель заложников'  вовремя осады/капитана/бесконченой осады когда включена.",
+
+    "bai_show_difficulty_name_instead_of_skulls" : "Показывать название сложности вместо изображения черепов",
+    "bai_show_difficulty_name_instead_of_skulls_desc" : "Показывать название сложности заместо изображения черепов в панели осады.\nНеприменимо для режима 'Серия ограблений'.",
+
+    "bai_host_only" : "Только хост",
+    "bai_client_only" : "Только клиент",
+
+    "bai_trigger_endless_assault_client" : "Показывать статус 'Бесконечной осады', где применимо.",
+    "bai_trigger_endless_assault_client_desc" : "Показывать статус 'Бесконечной осады', где применимо когда вы играете как клиент. Это опция игнорируется, когда вы являетесь хостом или хост имеет данный мод. Возможна небольшое уменьшение производительности, когда эта опция включена.",
+    
+    "bai_r" : "Красный",
+    "bai_r_desc" : "Значение (Только целые числа; пример: 28.55 будет округлено -> 28)",
+    "bai_g" : "Зеленый",
+    "bai_g_desc" : "Значение (Только целые числа; пример: 28.55 будет округлено -> 28)",
+    "bai_b" : "Синий",
+    "bai_b_desc" : "Значение (Только целые числа; пример: 28.55 будет округлено -> 28)",
+
+    "bai_padlock_end_line" : "Показывать значок замка вместо ///",
+    "bai_padlock_end_line_endless_assault_desc" : "Показывать значок замка вместо /// во время бесконечной осады.\nПримечание: Некоторые моды на интерфейс (Пример - Void UI) Имеют эту опцию включенной по умолчанию и её нельзя выключить.",
+    "bai_padlock_end_line_endless_wave_survived_desc" : "Показывать значок замка вместо /// для статуса 'БЕСКОНЕЧНАЯ ОСАДА ОТБИТА'.\nПримечание: Некоторые моды на интерфейс (Пример - Void UI) Имеют эту опцию включенной по умолчанию и её нельзя выключить.",
+
+    "bai_color": "Цвет",
+    "bai_color_desc": "Изменить цвет панели",
+
+    "bai_assault_box" : "Панель осады",
+    "bai_assault_box_desc" : "Изменяет цвет панели осады",
+
+    "bai_assault_box_mutated" : "Панель осады (Мутаторы включены)",
+    "bai_assault_box_mutated_desc" : "Изменяет цвет панели осады(Мутаторы включены)",
+
+    "bai_holdout_box" : "Панель осады (Заложник)", 
+    "bai_holdout_box_desc" : "Изменяет цвет панели осады (Заложник)",
+
+    "bai_captain_box" : "Панель Осады (Капитан)",
+    "bai_captain_box_desc" : "Изменяет цвет панели осады (Когда появляется капитан)",
+
+    "bai_captain_box_mutated" : "Панель осады (Капитан, Мутаторы включены)",
+    "bai_captain_box_mutated_desc" : "Изменяет цвет панели осады (Когда появляется капитан в игре с включенными мутаторами)",
+
+    "bai_endless_box": "Панель бесконечной осады",
+    "bai_endless_box_desc": "Изменяет цвет панели бесконечной осады осады",
+
+    "bai_endless_box_mutated": "Панель бесконечной осады (Мутаторы включены)",
+    "bai_endless_box_mutated_desc": "Изменяет цвет панели бесконечной осады осады (Мутаторы включены)",
+
+    "bai_survived_box": "Панель 'Осада отбита'",
+    "bai_survived_box_desc": "Изменяет цвет панели 'Осада отбита' (Также применяется к статусу на карте 'Защита убежища')",
+
+    "bai_escape_box" : "Панель Точки невозврата",
+    "bai_escape_box_desc": "Изменяет цвет панели точки невозврата",
+
+    "bai_color_reset" : "Сбросить цвет",
+    "bai_color_reset_desc" : "Сбрасывает цвет на стандартное значение",
+    "bai_colors_reset" : "Сбросить цвета",
+    "bai_colors_reset_desc" : "Сбрасывает цвета на стандартные значения",
+    
+    "bai_show_assault_states" : "Показывать фазы осады.",
+    "bai_show_assault_states_desc" : "Показывать фазы осад (контроль, ожидание, подготовка, поддержка и отступление) в панели осады.\nЭта опция не будет работать для бесконечной осады и пока капитан присутствует на карте.",
+
+    "bai_assault_states" : "Цвет Фаз осады",
+    "bai_assault_states_desc" : "Изменяет цвет фаз осады и видимость фаз на панели осады.\nДля работы необходима включенная опция'Показывать фазы осады'.",
+
+    "bai_enabled" : "Включено",
+    "bai_enabled_not_assault_desc" : "Если включено, то данная фаза будет выведена на панель осады. Если нет, то данная фаза не будет выведена на панель осады.",
+    "bai_enabled_assault_desc" : "Если включено, то данная опция будет отображаться на панели осады. Если нет, то панель осады будет показывать стандартные панели осады.",
+
+    "bai_show_advanced_assault_info" : "Показывать подробную информацию об осадах",
+    "bai_show_advanced_assault_info_desc" : "Показывать 'Спаунов осталось' и 'Времени осталось' информацию на панели осады.\nДанная опция недоступна для бесконечной осады и когда капитан присутствует на карте.",
+
+    "bai_advanced_assault_info" : "Подробная информация об осаде",
+    "bai_advanced_assault_info_desc" : "Изменить выводимую информацию опцией 'Показывать подробную информацию об осадах'.\nДолжна быть включена опция'Подробная информация об осаде'.\nНекоторые опции не будут работать при игре со стороны клиента",
+
+    "bai_show_time_left" : "Показывать 'Времени осталось'",
+    "bai_show_time_left_desc" : "Показывать сколько 'Времени осталось' на панели осады.\nЭта опция может работать некорректно при игре как клиент, когда эта опция выключена у хоста",
+    
+    "bai_time_format" : "Временной формат",
+    "bai_time_format_desc" : "Изменяет временной формат, показываемый опцией 'Времени осталось'.",
+    "bai_time_format_1" : "xx.xx (в с)",
+    "bai_time_format_2" : "'xx.xx' с",
+    "bai_time_format_3" : "xx (в с)",
+    "bai_time_format_4" : "'xx' с",
+    "bai_time_format_5" : "'xx' мин 'yy' с",
+    "bai_time_format_6" : "xx:yy",
+
+    "bai_show_spawns_left" : "Показывать 'Спаунов осталось'",
+    "bai_show_spawns_left_desc" : "Показывать сколько 'Спаунов осталось' на панели осады.(Только для хоста)",
+    
+    "hud_assault_alpha" : "Полицейская Осада",
+    "hud_assault_endless" : "БЕСКОНЕЧНАЯ ОСАДА",
+    "hud_assault_endless_alpha" : "БЕСКОНЕЧНАЯ ОСАДА",
+    "hud_assault_survived_endless" : "БЕСКОНЕЧНАЯ ОСАДА ОТБИТА",
+    "hud_cover" : "ОСТАВАЙТЕСЬ В УКРЫТИИ",
+
+    "hud_control" : "Контроль",
+    "hud_anticipation" : "Ожидание",
+    "hud_build" : "Подготовка",
+    "hud_sustain" : "Поддержка",
+    "hud_fade" : "Отступление",
+
+    "hud_overdue" : "Запоздание",
+    "hud_time_left" : "Времени осталось: ",
+    "hud_spawns_left" : "Спаунов осталось: ",
+    "hud_min" : "мин",
+    "hud_s" : "с",
+
+    "hud_assault" : "ОСАДА",
+    "hud_endless" : "БЕСКОНЕЧНАЯ",
+    "hud_captain" : "КАПИТАН",
+    "hud_captain_active" : "КАПИТАН ПРИБЫЛ",
+    "hud_survived" : "ОТБИТА"
+}

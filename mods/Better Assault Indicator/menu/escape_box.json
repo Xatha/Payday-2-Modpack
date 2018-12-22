@@ -1,0 +1,66 @@
+{
+    "menu_id": "bai_escape_box_menu",
+    "parent_menu_id" : "bai_menu",
+    "title" : "bai_escape_box",
+    "description" : "bai_escape_box_desc",
+    "focus_changed_callback": "BAIEscapeBoxChangedFocus",
+    "items": [
+        {
+            "type": "multiple_choice",
+            "id": "bai_escape_box",
+            "description": "bai_escape_box_desc",
+            "title": "",
+            "items": [
+                "bai_escape_box"
+            ],
+            "value": "bai_escape_box"
+        },
+        {
+            "type": "slider",
+            "id": "bai_escape_box_r_choice",
+            "title": "bai_r",
+            "description": "bai_r_desc",
+            "callback": "callback_bai_escape_box_r",
+            "value" : "r",
+            "default_value": 255,
+            "min": 0,
+            "max": 255,
+            "step": 1
+        },
+        {
+            "type": "slider",
+            "id": "bai_escape_box_g_choice",
+            "title": "bai_g",
+            "description": "bai_g_desc",
+            "callback": "callback_bai_escape_box_g",
+            "value" : "g",
+            "default_value": 0,
+            "min": 0,
+            "max": 255,
+            "step": 1
+        },
+        {
+            "type": "slider",
+            "id": "bai_escape_box_b_choice",
+            "title": "bai_b",
+            "description": "bai_b_desc",
+            "callback": "callback_bai_escape_box_b",
+            "value": "b",
+            "default_value": 0,
+            "min": 0,
+            "max": 255,
+            "step": 1
+        },
+        {
+            "type": "divider",
+            "size": 32
+        },
+        {
+            "type": "button",
+            "id": "bai_escape_color_reset_choice",
+            "title": "bai_color_reset",
+            "description": "bai_color_reset_desc",
+            "callback": "callback_bai_escape_box_color_reset"
+        }
+    ]
+}

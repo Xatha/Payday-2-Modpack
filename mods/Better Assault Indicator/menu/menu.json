@@ -1,0 +1,114 @@
+{
+	"menu_id" : "bai_menu",
+	"parent_menu_id" : "blt_options",
+	"title" : "bai_mod_title",
+	"description" : "bai_mod_desc",
+	"back_callback" : "BAISave",
+	"focus_changed_callback" : "BAIChangedFocus",
+	"items" : [
+		{
+			"type": "multiple_choice",
+			"id": "bai_compatibility_choice",
+			"title": "bai_compatibility",
+			"description": "bai_compatibility_desc",
+			"items": [
+				"bai_compatibility_1",
+				"bai_compatibility_2",
+				"bai_compatibility_3",
+				"bai_compatibility_4",
+                "bai_compatibility_5",
+                "bai_compatibility_6",
+                "bai_compatibility_7",
+                "bai_compatibility_8",
+                "bai_compatibility_9"
+			],
+			"callback" : "callback_bai_compatibility",
+			"value": "hud_compatibility",
+			"default_value": 1
+		},
+		{
+			"type" : "toggle",
+			"id" : "bai_show_wave_survived_choice",
+			"title" : "bai_show_wave_survived",
+			"description" : "bai_show_wave_survived_desc",
+			"callback" : "callback_bai_show_wave_survived",
+			"value" : "show_wave_survived",
+			"default_value" : true
+		},
+		{
+			"type" : "toggle",
+			"id" : "bai_completely_hide_hostage_panel_choice",
+			"title" : "bai_completely_hide_hostage_panel",
+			"description" : "bai_completely_hide_hostage_panel_desc",
+			"callback" : "callback_bai_completely_hide_hostage_panel",
+			"value" : "completely_hide_hostage_panel",
+			"default_value" : false
+		},
+		{
+			"type": "toggle",
+			"id": "bai_show_difficulty_name_instead_of_skulls_choice",
+			"title": "bai_show_difficulty_name_instead_of_skulls",
+			"description": "bai_show_difficulty_name_instead_of_skulls_desc",
+			"callback": "callback_bai_show_difficulty_name_instead_of_skulls",
+			"value": "show_difficulty_name_instead_of_skulls",
+			"default_value": false
+		},
+		{
+			"type": "toggle",
+			"id": "bai_show_assault_states_choice",
+			"title": "bai_show_assault_states",
+			"description": "bai_show_assault_states_desc",
+			"callback": "callback_bai_show_assault_states",
+			"value": "show_assault_states",
+			"default_value": false
+		},
+		{
+			"type" : "divider",
+			"size" : 32
+		},
+		{
+			"type": "multiple_choice",
+			"id": "bai_host_only",
+			"title": "",
+			"items": [
+				"bai_host_only"
+			],
+			"value": "bai_host_only"
+		},
+		{
+			"type": "toggle",
+			"id": "bai_show_advanced_assault_info_choice",
+			"title": "bai_show_advanced_assault_info",
+			"description": "bai_show_advanced_assault_info_desc",
+			"callback": "callback_bai_show_advanced_assault_info",
+			"value": "show_advanced_assault_info",
+			"default_value": false
+		},
+		{
+			"type" : "divider",
+			"size" : 32
+		},
+		{
+			"type": "multiple_choice",
+			"id": "bai_client_only",
+			"title": "",
+			"items": [
+				"bai_client_only"
+			],
+			"value": "bai_client_only"
+		},
+		{
+			"type": "toggle",
+			"id": "bai_trigger_endless_assault_client_choice",
+			"title": "bai_trigger_endless_assault_client",
+			"description": "bai_trigger_endless_assault_client_desc",
+			"callback": "callback_bai_trigger_endless_assault_client",
+			"value": "trigger_endless_assault_client",
+			"default_value": true
+		},
+		{
+			"type": "divider",
+			"size": 32
+		}
+	]
+}

@@ -1,0 +1,177 @@
+{
+    "bai_mod_title" : "Better Assault Indicator",
+    "bai_mod_desc" : "Impostazioni della mod",
+
+    "bai_compatibility" : "Compatibilità HUD",
+    "bai_compatibility_desc" : "Seleziona un altro HUD che stai utilizzando per renderlo compatibile con BAI.\nIl gioco potrebbe crashare se selezioni un HUD che non hai installato!",
+    "bai_compatibility_1" : "Rileva",
+    "bai_compatibility_2" : "Vanilla",
+    "bai_compatibility_3" : "Void UI",
+    "bai_compatibility_4" : "Nepgearsy HUD Reborn",
+    "bai_compatibility_5" : "HoloUI",
+    "bai_compatibility_6" : "SydneyHUD",
+    "bai_compatibility_7" : "PD:TH HUD Reborn",
+    "bai_compatibility_8" : "Restoration Mod",
+    "bai_compatibility_9" : "MUI",
+
+    "bai_holoui" : "Opzioni HoloUI",
+    "bai_holoui_desc" : "Applica le impostazioni specifiche di BAI a HoloUI",
+    "bai_holoui_update_text_color" : "Aggiorna colore testo",
+    "bai_holoui_update_text_color_desc" : "Aggiorna anche il colore del testo quando viene aggiornato il colore della barra d'assalto",
+
+    "bai_pdth_hud_reborn" : "Opzioni PD:TH HUD Reborn",
+    "bai_pdth_hud_reborn_desc" : "Modifica delle impostazioni specifiche della mod PD:TH HUD Reborn",
+    "bai_pdth_hud_reborn_custom_text_color" : "Usa colore del testo personalizzato",
+    "bai_pdth_hud_reborn_custom_text_color_desc" : "Se disabilitato, il gioco userà il colore dell'icona per colorare il testo",
+
+    "bai_restoration_mod" : "Impostazioni Restoration Mod",
+    "bai_restoration_mod_desc" : "Applica delle impostazioni specifiche di BAI a Restoration Mod",
+    "bai_restoration_mod_alpha_tape_only" : "Solo indicatore dell'alpha",
+    "bai_restoration_mod_alpha_tape_only_desc" : "Queste impostazioni modificano solo l'indicatore alpha di Restoration Mod",
+    "bai_restoration_mod_include_cover_text" : "Includi 'Stai al sicuro'",
+    "bai_restoration_mod_include_cover_text_desc" : "Includi la stringa 'STAI AL SICURO' nell'indicatore dell'assalto",
+    "bai_restoration_mod_use_alpha_assault_text" : "Usa testo accorciato (Assalto)",
+    "bai_restoration_mod_use_alpha_assault_text_desc" : "Utilizza la versione più corta del testo 'ASSALTO DELLA POLIZIA IN CORSO'",
+    "bai_restoration_mod_use_alpha_endless_text" : "Usa testo accorciato (Assalto infito)",
+    "bai_restoration_mod_use_alpha_endless_text_desc" : "Utilizza la versione più corta del testo 'ASSALTO DELLA POLIZIA INFINITO IN CORSO'",
+    "bai_restoration_mod_early_alpha_corner_only" : "Solo angoli dell'alpha",
+    "bai_restoration_mod_early_alpha_corner_only_desc" : "Queste impostazioni modificano solo gli angoli alpha di Restoration Mod",
+    "bai_c1" : "C1",
+    "bai_c2" : "C2",
+
+    "bai_mui" : "Impostazioni MUI",
+    "bai_mui_desc" : "Applica delle impostazioni specifiche di BAI a MUI",
+    "bai_mui_assault_text" : "Mostra 'ASSALTO' invece che il nome della difficoltà",
+    "bai_mui_assault_text_desc" : "Quando attivato, verrà mostrato 'ASSALTO' invece che il nome della difficoltà nel pannello dell'assalto",
+
+    "bai_button_ok" : "OK",
+    "bai_detected_wolfhud" : "Rilevata incompatibilità con WolfHUD",
+    "bai_detected_wolfhud_desc" : "L'opzione di WolfHUD 'Indicatore assalto avanzato' non è compatibile con BAI ed è stata disabilitata automaticamente.\nSarà possibile modificare l'indicatore tramite le opzioni 'Indicatore avanzato assalto' e 'Stati dell'assalto' di BAI.",
+    "bai_detected_assault_states" : "Rilevata incompatibilità con 'Assault States mod'",
+    "bai_detected_assault_states_desc" : "'Assault States mod' è incompatibile con BAI. BAI può già mostrare gli stati dell'assalto. È consigliato rimuovere o disabilitare 'Assault States mod'.",
+    "bai_detected_wave_survived" : "Rilevata incompatibilità con 'Wave Survived mod'",
+    "bai_detected_wave_survived_desc" : "'Wave Survived mod' è incompatibile con BAI. BAI può già mostrare il banner di ondata superata. È consigliato rimuovere o disabilitare 'Wave Survived mod'.",
+    "bai_detected_sydneyhud" : "Rilevata incompatibilità con 'SydneyHUD'",
+    "bai_detected_sydneyhud_desc" : "L'opzione di SydneyHUD 'Indicatore assalto avanzato' non è compatibile con BAI ed è stata disabilitata automaticamente.\nSarà possibile modificare l'indicatore tramite le opzioni 'Indicatore avanzato assalto' e 'Stati dell'assalto' di BAI.",
+ 
+    "bai_show_wave_survived" : "Mostra banner 'Ondata superata'",
+    "bai_show_wave_survived_desc" : "Mostra il banner 'Ondata superata' ogni volta che sopravvivi ad un assalto\n(viene normalmente mostrato solo nell'irruzione al rifugio)",
+   
+    "bai_hide_hostage_panel" : "Nascondi pannello ostaggi",
+    "bai_hide_hostage_panel_assault_desc" : "Nascondi il pannello degli ostaggi durante i normali assalti",
+    "bai_hide_hostage_panel_captain_desc" : "Nascondi il pannello degli ostaggi quanto il Capitano è presente",
+    "bai_hide_hostage_panel_endless_desc" : "Nascondi il pannello degli ostaggi durante gli assalti infiniti",
+    
+    "bai_completely_hide_hostage_panel" : "Nascondi completamente ostaggi",
+    "bai_completely_hide_hostage_panel_desc" : "Il pannello degli ostaggi non sarà visibile quando inizi una missione\nQuesta impostazione ignora le altre impostazioni che lo nascondono",
+ 
+    "bai_show_difficulty_name_instead_of_skulls" : "Nome difficoltà invece dei teschi",
+    "bai_show_difficulty_name_instead_of_skulls_desc" : "Mostra il nome della difficoltà invece dei teschi nell'indicatore dell'assalto\nNon applicabile nelle Serie Criminali",
+ 
+    "bai_host_only" : "Solo Host",
+    "bai_client_only" : "Solo Client",
+ 
+    "bai_trigger_endless_assault_client" : "Mostra Assalto Infinito quando supportato",
+    "bai_trigger_endless_assault_client_desc" : "Mostra l'Assalto Infinito nelle missioni supportate quando sei un client\nQuesta impostazione è ignorata quando sei l'host o se anche l'host possiede questa mod",
+   
+    "bai_r" : "Rosso",
+    "bai_r_desc" : "Imposta il valore rosso del colore (verranno usati solo numeri interi; es: 28.55 -> 28)",
+    "bai_g" : "Verde",
+    "bai_g_desc" : "Imposta il valore verde del colore (verranno usati solo numeri interi; es: 28.55 -> 28)",
+    "bai_b" : "Blu",
+    "bai_b_desc" : "Imposta il valore blu del colore (verranno usati solo numeri interi; es: 28.55 -> 28)",
+
+    "bai_padlock_end_line" : "Mostra lucchetto invece di ///",
+    "bai_padlock_end_line_endless_assault_desc" : "Mostra l'icona del lucchetto invece del separatore '///' negli assalti infiniti.\nNota: Alcuni HUD (es. Void UI) hanno questa impostazione già attiva di default e non può essere disattivata",
+    "bai_padlock_end_line_endless_wave_survived_desc" : "Mostra l'icona del lucchetto invece del separatore '///' dopo essere sopravvissuti ad un assalto infinito.\nNota: Alcuni HUD (es. Void UI) hanno questa impostazione già attiva di default e non può essere disattivata",
+ 
+    "bai_color": "Colori",
+    "bai_color_desc": "Cambia il colore dell'indicatore",
+ 
+    "bai_assault_box" : "Assalto",
+    "bai_assault_box_desc" : "Cambia il colore dell'indicatore durante un assalto",
+ 
+    "bai_assault_box_mutated" : "Assalto (Mutatori attivi)",
+    "bai_assault_box_mutated_desc" : "Cambia il colore dell'indicatore durante un assalto in una partita con mutatori attivi",
+ 
+    "bai_captain_box" : "Assalto (Capitano)",
+    "bai_captain_box_desc" : "Cambia il colore dell'indicatore durante un assalto quando il Capitano è presente",
+
+    "bai_holdout_box" : "Assalto (Holdout)",
+    "bai_holdout_box_desc" : "Cambia il colore dell'indicatore durante un assalto in modalità Holdout",
+
+    "bai_captain_box_mutated" : "Assalto (Capitano, Mutatori attivi)",
+    "bai_captain_box_mutated_desc" : "Cambia il colore dell'indicatore durante un assalto in una partita con mutatori attivi quando il Capitano è presente",
+ 
+    "bai_endless_box": "Assalto Infinito",
+    "bai_endless_box_desc": "Cambia il colore dell'indicatore durante un assalto infinito",
+ 
+    "bai_endless_box_mutated": "Assalto Infinito (Mutatori attivi)",
+    "bai_endless_box_mutated_desc": "Cambia il colore dell'indicatore durante un assalto infinito in una partita con mutatori attivi",
+ 
+    "bai_survived_box": "Ondata superata",
+    "bai_survived_box_desc": "Cambia il colore dell'indicatore dopo essere sopravvissuti ad un assalto\n(Verrà inoltre applicato nell'indicatore durante le irruzioni al rifugio)",
+ 
+    "bai_escape_box" : "Punto di non ritorno",
+    "bai_escape_box_desc": "Cambia il colore dell'indicatore del punto di non ritorno (Missione fallita tra...)",
+ 
+    "bai_color_reset" : "Reimposta colore",
+    "bai_color_reset_desc" : "Reimposta il colore al suo valore di default",
+    "bai_colors_reset" : "Reimposta colori",
+    "bai_colors_reset_desc" : "Reimposta i colori con i valori di default del gioco",
+ 
+    "bai_show_assault_states" : "Mostra stati dell'assalto",
+    "bai_show_assault_states_desc" : "Mostra gli stati dell'assalto (controllo, anticipazione, preparazione, attacco e ritirata)\nQuesta opzione non funzionerà con gli assalti infiniti oppure se il Capitano è presente nel livello",
+ 
+    "bai_assault_states" : "Stati dell'assalto",
+    "bai_assault_states_desc" : "Cambia il colore e la visibilità di ogni singolo stato dell'assalto\n'Mostra stati dell'assalto' deve essere attivato",
+
+    "bai_enabled" : "Attivo",
+    "bai_enabled_not_assault_desc" : "Se attivo, verranno mostrati gli stati dell'assalto quando un assalto non è in corso\nAltrimenti l'indicatore verrà nascosto",
+    "bai_enabled_assault_desc" : "Se attivo, verranno mostrati gli stati dell'assalto durante gli assalti\nAltrimenti verrà mostrato il normale indicatore di assalto",
+    
+    "bai_show_advanced_assault_info" : "Mostra informazioni assalto avanzate",
+    "bai_show_advanced_assault_info_desc" : "Mostra i rinforzi rimasti e il tempo rimasto nella barra dell'assalto\nQueste informazioni non sono visibili durante gli assalti infiniti e quando il capitano è presente",
+
+    "bai_advanced_assault_info" : "Informazioni assalto avanzate",
+    "bai_advanced_assault_info_desc" : "Modifica le impostazioni avanzate dell'assalto.\n'Mostra informazioni avanzate assalto' deve essere attivo per funzionare. Alcune impostazioni non funzioneranno quando stai giocando come client.",    
+
+    "bai_show_time_left" : "Mostra 'Tempo rimanente'",
+    "bai_show_time_left_desc" : "Mostra l'informazione 'Tempo rimanente' nella barra dell'assalto.\nQuesta informazione non sarà accurata quando stai giocando come client e l'host non ha questa impostazione attiva.",    
+
+    "bai_time_format" : "Formato tempo",
+    "bai_time_format_desc" : "Cambia il formato del tempo mostrato con l'informazione 'Tempo rimasto' dell'assalto",
+    "bai_time_format_1" : "xx.xx (in s)",
+    "bai_time_format_2" : "'xx.xx' s",
+    "bai_time_format_3" : "xx (in s)",
+    "bai_time_format_4" : "'xx' s",
+    "bai_time_format_5" : "'xx' min 'yy' s",
+    "bai_time_format_6" : "xx:yy",
+
+    "bai_show_spawns_left" : "Mostra 'Rinforzi rimanenti'",
+    "bai_show_spawns_left_desc" : "Mostra l'informazione 'Rinforzi rimanenti' nella barra dell'assalto (Solo Host)",    
+
+    "hud_assault_alpha" : "ASSALTO DELLA POLIZIA",
+    "hud_assault_endless" : "ASSALTO DELLA POLIZIA INFINITO IN CORSO",
+    "hud_assault_endless_alpha" : "ASSALTO DELLA POLIZIA INFINITO",
+    "hud_assault_survived_endless" : "ASSALTO INFINITO SOPRAVVISSUTO",
+    "hud_cover" : "STAI AL SICURO",
+
+    "hud_control" : "Controllo",
+    "hud_anticipation" : "Anticipazione",
+    "hud_build" : "Preparazione",
+    "hud_sustain" : "Assalto",
+    "hud_fade" : "Ritirata",
+
+    "hud_overdue" : "Ritardo",
+    "hud_time_left" : "Tempo rimasto: ",
+    "hud_spawns_left" : "Rinforzi rimasti: ",
+    "hud_min" : "min",
+    "hud_s" : "s",
+
+    "hud_assault" : "ASSALTO",
+    "hud_endless" : "INFINITO",
+    "hud_captain" : "CAPITANO",
+    "hud_captain_active" : "COMPLETAMENTE ASSEMBLATO",
+    "hud_survived" : "SOPRAVVISSUTO"
+}
