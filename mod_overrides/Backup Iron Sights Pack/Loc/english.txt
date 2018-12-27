@@ -1,0 +1,9 @@
+{
+	"bm_wp_wpn_fps_upg_o_var_dd_a1_rear" : "Daniel Defense A1.5 Sights",
+	"bm_wp_wpn_fps_upg_o_var_kac_rear" : "KAC Flip-Up Sights",
+	"bm_wp_wpn_fps_upg_o_var_m4flipup_rear" : "Flip-up Iron Sights",
+	"bm_wp_wpn_fps_upg_o_var_mbus_rear" : "Magpul MBUS",
+	"bm_wp_wpn_fps_upg_o_var_scorpionevo_rear" : "Scorpion EVO Iron Sights",
+	"bm_wp_wpn_fps_upg_o_var_troy_rear" : "Troy Industries HK Folding Battle Sights",
+	"bm_wp_wpn_fps_upg_o_var_troym4_rear" : "Troy Industries M4 Folding Battle Sights"
+}

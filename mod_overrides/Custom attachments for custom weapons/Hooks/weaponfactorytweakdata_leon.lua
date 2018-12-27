@@ -1,0 +1,26 @@
+Hooks:PostHook(WeaponFactoryTweakData, "create_bonuses", "CAFCWMod_Leon_Init", function(self)
+if self.wpn_fps_sho_usas12 then
+	self:cafcw_add_to_parts("gadget", "wpn_fps_sho_usas12", "wpn_fps_upg_fl_ass_spotter")
+	self:cafcw_add_to_parts("gadget", "wpn_fps_sho_usas12", "wpn_fps_upg_fl_wml")
+	self:cafcw_add_to_parts("gadget", "wpn_fps_sho_usas12", "wpn_fps_upg_fl_anpeq2")
+	self:cafcw_add_to_parts("gadget", "wpn_fps_sho_usas12", "wpn_fps_upg_fl_dbal_d2")
+	self:cafcw_add_to_parts("gadget", "wpn_fps_sho_usas12", "wpn_fps_upg_fl_m600p")
+	self:cafcw_add_to_parts("gadget", "wpn_fps_sho_usas12", "wpn_fps_upg_fl_utg")
+	self:cafcw_add_modpack("ammo", "wpn_fps_sho_usas12", "_12ga_auto", "TaserAmmo")
+	self:cafcw_add_custom_sights("specter", "wpn_fps_sho_usas12", "wpn_fps_sho_aa12", "wpn_fps_sho_usas12_body_rail")
+	self:cafcw_add_custom_sights("acog", "wpn_fps_sho_usas12", "wpn_fps_sho_aa12", "wpn_fps_sho_usas12_body_rail")
+	self:cafcw_add_custom_sights("custom", "wpn_fps_sho_usas12", "wpn_fps_sho_aa12", "wpn_fps_sho_usas12_body_rail")
+end
+if self.wpn_fps_shot_prison then
+	self:cafcw_add_to_parts("gadget", "wpn_fps_shot_prison", "wpn_fps_upg_fl_ass_spotter")
+	self:cafcw_add_to_parts("gadget", "wpn_fps_shot_prison", "wpn_fps_upg_fl_wml")
+	self:cafcw_add_to_parts("gadget", "wpn_fps_shot_prison", "wpn_fps_upg_fl_anpeq2")
+	self:cafcw_add_to_parts("gadget", "wpn_fps_shot_prison", "wpn_fps_upg_fl_dbal_d2")
+	self:cafcw_add_to_parts("gadget", "wpn_fps_shot_prison", "wpn_fps_upg_fl_m600p")
+	self:cafcw_add_to_parts("gadget", "wpn_fps_shot_prison", "wpn_fps_upg_fl_utg")
+	self:cafcw_add_modpack("ammo", "wpn_fps_shot_prison", "_12ga_auto", "TaserAmmo")
+	self:cafcw_add_custom_sights("specter", "wpn_fps_shot_prison", "wpn_fps_sho_spas12", "wpn_fps_shot_r870_ris_special")
+	self:cafcw_add_custom_sights("acog", "wpn_fps_shot_prison", "wpn_fps_sho_spas12", "wpn_fps_shot_r870_ris_special")
+	self:cafcw_add_custom_sights("custom", "wpn_fps_shot_prison", "wpn_fps_sho_spas12", "wpn_fps_shot_r870_ris_special")
+end
+end)

@@ -1,0 +1,8 @@
+<dynamic_object>
+    <diesel orientation_object="rp_wpn_fps_upg_fl_pis_crimson" materials="units/mods/weapons/wpn_fps_upg_fl_utg/wpn_fps_upg_fl_utg_pis" />
+    <graphics>
+        <object enabled="false" name="g_laser" />
+        <object enabled="false" name="g_indicator" />
+        <object enabled="true" name="g_g" />
+    </graphics>
+</dynamic_object>

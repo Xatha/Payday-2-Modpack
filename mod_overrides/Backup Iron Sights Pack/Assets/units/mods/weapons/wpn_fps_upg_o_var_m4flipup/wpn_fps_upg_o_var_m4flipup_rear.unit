@@ -1,0 +1,6 @@
+<unit type="wpn" slot="1" >
+    <object file="units/mods/weapons/wpn_fps_upg_o_var_m4flipup/wpn_fps_upg_o_var_m4flipup_rear" />
+    <extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+    </extensions>
+</unit>

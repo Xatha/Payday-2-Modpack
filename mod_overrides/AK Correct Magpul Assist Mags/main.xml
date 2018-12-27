@@ -1,0 +1,36 @@
+<table name="AK Correct Magpul Assist Mags" image="guis/mod_icons/akmagpul" color="Color(0.01,0.62,0.98)">
+	<AddFiles directory="Assets">
+		<cooked_physics path="units/mods/weapons/wpn_fps_ass_akm_m_magpul/wpn_fps_ass_akm_m_magpul"/>
+		<model path="units/mods/weapons/wpn_fps_ass_akm_m_magpul/wpn_fps_ass_akm_m_magpul"/>
+		<object path="units/mods/weapons/wpn_fps_ass_akm_m_magpul/wpn_fps_ass_akm_m_magpul"/>
+		<unit path="units/mods/weapons/wpn_fps_ass_akm_m_magpul/wpn_fps_ass_akm_m_magpul"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_akm_m_magpul/wpn_fps_ass_akm_m_magpul"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_akm_m_magpul/wpn_fps_ass_akm_m_magpul_cc"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_akm_m_magpul/wpn_fps_ass_akm_m_magpul_cc_thq"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_akm_m_magpul/wpn_fps_ass_akm_m_magpul_thq"/>
+
+		<cooked_physics path="units/mods/weapons/wpn_fps_ass_akm_m_magpul/wpn_fps_ass_akm_gold_m_magpul"/>
+		<model path="units/mods/weapons/wpn_fps_ass_akm_m_magpul/wpn_fps_ass_akm_gold_m_magpul"/>
+		<object path="units/mods/weapons/wpn_fps_ass_akm_m_magpul/wpn_fps_ass_akm_gold_m_magpul"/>
+		<unit path="units/mods/weapons/wpn_fps_ass_akm_m_magpul/wpn_fps_ass_akm_gold_m_magpul"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_akm_m_magpul/wpn_fps_ass_akm_gold_m_magpul"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_akm_m_magpul/wpn_fps_ass_akm_gold_m_magpul_cc"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_akm_m_magpul/wpn_fps_ass_akm_gold_m_magpul_cc_thq"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_akm_m_magpul/wpn_fps_ass_akm_gold_m_magpul_thq"/>
+
+		<cooked_physics path="units/mods/weapons/wpn_fps_ass_flint_m_magpul/wpn_fps_ass_flint_m_magpul"/>
+		<model path="units/mods/weapons/wpn_fps_ass_flint_m_magpul/wpn_fps_ass_flint_m_magpul"/>
+		<object path="units/mods/weapons/wpn_fps_ass_flint_m_magpul/wpn_fps_ass_flint_m_magpul"/>
+		<unit path="units/mods/weapons/wpn_fps_ass_flint_m_magpul/wpn_fps_ass_flint_m_magpul"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_flint_m_magpul/wpn_fps_ass_flint_m_magpul"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_flint_m_magpul/wpn_fps_ass_flint_m_magpul_cc"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_flint_m_magpul/wpn_fps_ass_flint_m_magpul_cc_thq"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_flint_m_magpul/wpn_fps_ass_flint_m_magpul_thq"/>
+
+		<texture path="guis/mod_icons/akmagpul"/>
+	</AddFiles>
+	<Hooks directory="Hooks">
+		<hook file="weaponfactorytweakdata.lua" source_file="lib/tweak_data/weaponfactorytweakdata"/>
+		<hook file="weaponskinstweakdata.lua" source_file="lib/tweak_data/blackmarket/weaponskinstweakdata"/>
+	</Hooks>
+</table>

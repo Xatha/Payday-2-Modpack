@@ -1,0 +1,8 @@
+{
+	"bm_wp_wpn_fps_upg_fl_anpeq2" : "AN/PEQ-2",
+	"bm_wp_wpn_fps_upg_fl_dbal_d2" : "Steiner DBAL-D2",
+	"bm_wp_wpn_fps_upg_fl_m600p" : "SureFire M600P Fury Scout Flashlight",
+	"bm_wp_wpn_fps_upg_fl_unimax" : "LaserMax Uni-Max Laser Sight",
+	"bm_wp_wpn_fps_upg_fl_utg" : "UTG Deluxe Tactical Laser Sight",
+	"bm_wp_wpn_fps_upg_fl_utg_pis" : "UTG Deluxe Tactical Laser Sight"
+}

@@ -1,0 +1,6 @@
+<dynamic_object>
+    <diesel orientation_object="rp_wpn_fps_upg_o_mbus_rear" materials="units/mods/weapons/wpn_fps_upg_o_var_kac/wpn_fps_upg_o_var_kac_rear" />
+    <graphics>
+        <object enabled="true" name="g_rear" />
+    </graphics>
+</dynamic_object>

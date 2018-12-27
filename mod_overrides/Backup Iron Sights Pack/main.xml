@@ -1,0 +1,465 @@
+<table name="Backup Iron Sights Pack" image="guis/mod_icons/backupirons" color="Color(0.01,0.62,0.98)">
+	<Localization directory="Loc" default="english.txt"/>
+	<AssetUpdates id="17205" version="1.13" provider="modworkshop"/>
+	<WeaponMod id="wpn_fps_upg_o_var_dd_a1_front" based_on="wpn_fps_upg_o_dd_front" type="front_sight" a_obj="a_of" unit="units/mods/weapons/wpn_fps_upg_o_var_dd_a1/wpn_fps_upg_o_var_dd_a1_front" drop="false" is_a_unlockable="false"/>
+
+	<WeaponMod id="wpn_fps_upg_o_var_dd_a1_rear" based_on="wpn_fps_m4_uupg_o_flipup" type="sight" a_obj="a_or" unit="units/mods/weapons/wpn_fps_upg_o_var_dd_a1/wpn_fps_upg_o_var_dd_a1_rear" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<adds>
+			<value_node value="wpn_fps_upg_o_var_dd_a1_front"/>
+		</adds>
+		<stance_mod>
+			<wpn_fps_shot_saiga translation="0.07 -14 -2.595"/>
+			<wpn_fps_ass_aug translation="0.005 -5 -2.4"/>
+			<wpn_fps_smg_p90 translation="0.005 -10 -2.66"/>
+			<wpn_fps_sho_striker translation="0 -10 -2.41"/>
+			<wpn_fps_sho_ksg translation="0.005 -6 -0.95"/>
+			<wpn_fps_ass_m4 translation="0 0 -0.175"/>
+			<wpn_fps_ass_m16 rotation="0.00196349 -0 -0 -0.999998" translation="-0.008 -3 0.35"/>
+			<wpn_fps_ass_g36 translation="-0.015 -7 -2.59"/>
+			<wpn_fps_sho_basset translation="0 -9 -0.3"/>
+			<wpn_fps_smg_mp5 translation="0.005 -3 -2.555"/>
+			<wpn_fps_smg_hajk translation="0.005 2 -0.115"/>
+			<wpn_fps_sho_rota translation="0 -12 -0.05"/>
+			<wpn_fps_ass_komodo translation="0.005 0 0.46"/>
+			<wpn_fps_ass_flint translation="0 -6 -2.32"/>
+			<wpn_fps_smg_shepheard translation="0.005 -11 -0.05"/>
+		</stance_mod>
+		<weapons>
+			<value_node value="wpn_fps_shot_saiga"/>
+			<value_node value="wpn_fps_ass_aug"/>
+			<value_node value="wpn_fps_smg_p90"/>
+			<value_node value="wpn_fps_sho_striker"/>
+			<value_node value="wpn_fps_sho_ksg"/>
+			<value_node value="wpn_fps_ass_m4"/>
+			<value_node value="wpn_fps_ass_m16"/>
+			<value_node value="wpn_fps_ass_g36"/>
+			<value_node value="wpn_fps_sho_basset"/>
+			<value_node value="wpn_fps_smg_mp5"/>
+			<value_node value="wpn_fps_smg_hajk"/>
+			<value_node value="wpn_fps_sho_rota"/>
+			<value_node value="wpn_fps_ass_komodo"/>
+			<value_node value="wpn_fps_ass_flint"/>
+			<value_node value="wpn_fps_smg_shepheard"/>
+		</weapons>
+		<pcs/>
+	</WeaponMod>
+
+	<WeaponMod id="wpn_fps_upg_o_var_kac_front" based_on="wpn_fps_upg_o_dd_front" type="front_sight" a_obj="a_of" unit="units/mods/weapons/wpn_fps_upg_o_var_kac/wpn_fps_upg_o_var_kac_front" drop="false" is_a_unlockable="false"/>
+
+	<WeaponMod id="wpn_fps_upg_o_var_kac_rear" based_on="wpn_fps_m4_uupg_o_flipup" type="sight" a_obj="a_or" unit="units/mods/weapons/wpn_fps_upg_o_var_kac/wpn_fps_upg_o_var_kac_rear" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<adds>
+			<value_node value="wpn_fps_upg_o_var_kac_front"/>
+		</adds>
+		<stance_mod>
+			<!-- 0 0 -0.51 -->
+			<wpn_fps_shot_saiga translation="0.07 -14 -3.105"/>
+			<wpn_fps_ass_aug translation="0.005 -5 -2.91"/>
+			<wpn_fps_smg_p90 translation="0.005 -10 -3.17"/>
+			<wpn_fps_sho_striker translation="0 -10 -2.92"/>
+			<wpn_fps_sho_ksg translation="0.005 -6 -1.46"/>
+			<wpn_fps_ass_m4 translation="0 0 -0.685"/>
+			<wpn_fps_ass_m16 rotation="-0.00261799 -0 0 -0.999997" translation="-0.008 -3 -0.36"/>
+			<wpn_fps_ass_g36 translation="-0.015 -7 -3.1"/>
+			<wpn_fps_sho_basset translation="0 -9 -0.81"/>
+			<wpn_fps_smg_mp5 translation="0.005 -3 -3.065"/>
+			<wpn_fps_smg_hajk translation="0.005 2 -0.625"/>
+			<wpn_fps_sho_rota translation="0 -12 -0.56"/>
+			<wpn_fps_smg_polymer translation="0 1 -0.8"/>
+			<wpn_fps_ass_komodo translation="0.005 0 -0.05"/>
+			<wpn_fps_ass_flint translation="0 -6 -2.83"/>
+			<wpn_fps_smg_shepheard translation="0.005 -11 -0.56"/>
+		</stance_mod>
+		<weapons>
+			<value_node value="wpn_fps_shot_saiga"/>
+			<value_node value="wpn_fps_ass_aug"/>
+			<value_node value="wpn_fps_smg_p90"/>
+			<value_node value="wpn_fps_sho_striker"/>
+			<value_node value="wpn_fps_sho_ksg"/>
+			<value_node value="wpn_fps_ass_m4"/>
+			<value_node value="wpn_fps_ass_m16"/>
+			<value_node value="wpn_fps_ass_g36"/>
+			<value_node value="wpn_fps_sho_basset"/>
+			<value_node value="wpn_fps_smg_mp5"/>
+			<value_node value="wpn_fps_smg_hajk"/>
+			<value_node value="wpn_fps_sho_rota"/>
+			<value_node value="wpn_fps_smg_polymer"/>
+			<value_node value="wpn_fps_ass_komodo"/>
+			<value_node value="wpn_fps_ass_flint"/>
+			<value_node value="wpn_fps_smg_shepheard"/>
+		</weapons>
+		<pcs/>
+	</WeaponMod>
+
+	<WeaponMod id="wpn_fps_upg_o_var_m4flipup_front" based_on="wpn_fps_upg_o_dd_front" type="front_sight" a_obj="a_of" unit="units/mods/weapons/wpn_fps_upg_o_var_m4flipup/wpn_fps_upg_o_var_m4flipup_front" drop="false" is_a_unlockable="false"/>
+
+	<WeaponMod id="wpn_fps_upg_o_var_m4flipup_rear" based_on="wpn_fps_m4_uupg_o_flipup" type="sight" a_obj="a_or" unit="units/mods/weapons/wpn_fps_upg_o_var_m4flipup/wpn_fps_upg_o_var_m4flipup_rear" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<adds>
+			<value_node value="wpn_fps_upg_o_var_m4flipup_front"/>
+		</adds>
+		<stance_mod>
+			<wpn_fps_shot_saiga translation="0.07 -14 -2.595"/>
+			<wpn_fps_ass_aug translation="0.005 -5 -2.4"/>
+			<wpn_fps_smg_p90 translation="0.005 -10 -2.66"/>
+			<wpn_fps_sho_striker translation="0 -10 -2.41"/>
+			<wpn_fps_sho_ksg translation="0.005 -6 -0.95"/>
+			<wpn_fps_ass_m16 rotation="0.00196349 -0 -0 -0.999998" translation="-0.008 -3 0.35"/>
+			<wpn_fps_ass_g36 translation="-0.015 -7 -2.59"/>
+			<wpn_fps_sho_basset translation="0 -9 -0.3"/>
+			<wpn_fps_smg_mp5 translation="0.005 -3 -2.555"/>
+			<wpn_fps_smg_hajk translation="0.005 2 -0.115"/>
+			<wpn_fps_sho_rota translation="0 -12 -0.05"/>
+			<wpn_fps_smg_polymer translation="0 1 -0.29"/>
+			<wpn_fps_ass_komodo translation="0.005 0 0.46"/>
+			<wpn_fps_ass_flint translation="0 -6 -2.32"/>
+			<wpn_fps_smg_shepheard translation="0.005 -11 -0.05"/>
+		</stance_mod>
+		<weapons>
+			<value_node value="wpn_fps_shot_saiga"/>
+			<value_node value="wpn_fps_ass_aug"/>
+			<value_node value="wpn_fps_smg_p90"/>
+			<value_node value="wpn_fps_sho_striker"/>
+			<value_node value="wpn_fps_sho_ksg"/>
+			<value_node value="wpn_fps_ass_m16"/>
+			<value_node value="wpn_fps_ass_g36"/>
+			<value_node value="wpn_fps_sho_basset"/>
+			<value_node value="wpn_fps_smg_mp5"/>
+			<value_node value="wpn_fps_smg_hajk"/>
+			<value_node value="wpn_fps_sho_rota"/>
+			<value_node value="wpn_fps_smg_polymer"/>
+			<value_node value="wpn_fps_ass_komodo"/>
+			<value_node value="wpn_fps_ass_flint"/>
+			<value_node value="wpn_fps_smg_shepheard"/>
+		</weapons>
+		<pcs/>
+	</WeaponMod>
+
+	<WeaponMod id="wpn_fps_upg_o_var_mbus_front" based_on="wpn_fps_upg_o_dd_front" type="front_sight" a_obj="a_of" unit="units/mods/weapons/wpn_fps_upg_o_var_mbus/wpn_fps_upg_o_var_mbus_front" drop="false" is_a_unlockable="false"/>
+
+	<WeaponMod id="wpn_fps_upg_o_var_mbus_rear" based_on="wpn_fps_m4_uupg_o_flipup" type="sight" a_obj="a_or" unit="units/mods/weapons/wpn_fps_upg_o_var_mbus/wpn_fps_upg_o_var_mbus_rear" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<adds>
+			<value_node value="wpn_fps_upg_o_var_mbus_front"/>
+		</adds>
+		<stance_mod>
+			<wpn_fps_shot_saiga translation="0.07 -14 -2.595"/>
+			<wpn_fps_ass_aug translation="0.005 -5 -2.4"/>
+			<wpn_fps_smg_p90 translation="0.005 -10 -2.66"/>
+			<wpn_fps_sho_striker translation="0 -10 -2.41"/>
+			<wpn_fps_sho_ksg translation="0.005 -6 -0.95"/>
+			<wpn_fps_ass_m4 translation="0 0 -0.175"/>
+			<wpn_fps_ass_m16 rotation="0.00196349 -0 -0 -0.999998" translation="-0.008 -3 0.35"/>
+			<wpn_fps_ass_g36 translation="-0.015 -7 -2.59"/>
+			<wpn_fps_sho_basset translation="0 -9 -0.3"/>
+			<wpn_fps_smg_mp5 translation="0.005 -3 -2.555"/>
+			<wpn_fps_smg_hajk translation="0.005 2 -0.115"/>
+			<wpn_fps_sho_rota translation="0 -12 -0.05"/>
+			<wpn_fps_smg_polymer translation="0 1 -0.29"/>
+			<wpn_fps_ass_komodo translation="0.005 0 0.46"/>
+			<wpn_fps_ass_flint translation="0 -6 -2.32"/>
+			<wpn_fps_smg_shepheard translation="0.005 -11 -0.05"/>
+		</stance_mod>
+		<weapons>
+			<value_node value="wpn_fps_shot_saiga"/>
+			<value_node value="wpn_fps_ass_aug"/>
+			<value_node value="wpn_fps_smg_p90"/>
+			<value_node value="wpn_fps_sho_striker"/>
+			<value_node value="wpn_fps_sho_ksg"/>
+			<value_node value="wpn_fps_ass_m4"/>
+			<value_node value="wpn_fps_ass_m16"/>
+			<value_node value="wpn_fps_ass_g36"/>
+			<value_node value="wpn_fps_sho_basset"/>
+			<value_node value="wpn_fps_smg_mp5"/>
+			<value_node value="wpn_fps_smg_hajk"/>
+			<value_node value="wpn_fps_sho_rota"/>
+			<value_node value="wpn_fps_smg_polymer"/>
+			<value_node value="wpn_fps_ass_komodo"/>
+			<value_node value="wpn_fps_ass_flint"/>
+			<value_node value="wpn_fps_smg_shepheard"/>
+		</weapons>
+		<pcs/>
+	</WeaponMod>
+
+	<WeaponMod id="wpn_fps_upg_o_var_scorpionevo_front" based_on="wpn_fps_upg_o_dd_front" type="front_sight" a_obj="a_of" unit="units/mods/weapons/wpn_fps_upg_o_var_scorpionevo/wpn_fps_upg_o_var_scorpionevo_front" drop="false" is_a_unlockable="false"/>
+
+	<WeaponMod id="wpn_fps_upg_o_var_scorpionevo_rear" based_on="wpn_fps_m4_uupg_o_flipup" type="sight" a_obj="a_or" unit="units/mods/weapons/wpn_fps_upg_o_var_scorpionevo/wpn_fps_upg_o_var_scorpionevo_rear" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<adds>
+			<value_node value="wpn_fps_upg_o_var_scorpionevo_front"/>
+		</adds>
+		<stance_mod>
+			<!-- 0 0 2.03 -->
+			<wpn_fps_shot_saiga translation="0.07 -16 -0.575"/>
+			<wpn_fps_ass_aug translation="0.005 -5 -0.38"/>
+			<wpn_fps_smg_p90 translation="0.005 -10 -0.635"/>
+			<wpn_fps_sho_striker translation="0 -10 -0.375"/>
+			<wpn_fps_sho_ksg translation="0.005 -5 1.07"/>
+			<wpn_fps_ass_m4 translation="0 2 1.85"/>
+			<wpn_fps_sho_basset translation="0 -7 1.7"/>
+			<wpn_fps_smg_hajk translation="0.005 2 1.915"/>
+			<wpn_fps_sho_rota translation="0 -12 1.98"/>
+			<wpn_fps_smg_polymer translation="0 3 1.74"/>
+			<wpn_fps_ass_flint translation="0 -10 -0.29"/>
+			<wpn_fps_smg_shepheard translation="0.005 -12 1.98"/>
+		</stance_mod>
+		<weapons>
+			<value_node value="wpn_fps_shot_saiga"/>
+			<value_node value="wpn_fps_ass_aug"/>
+			<value_node value="wpn_fps_smg_p90"/>
+			<value_node value="wpn_fps_sho_striker"/>
+			<value_node value="wpn_fps_sho_ksg"/>
+			<value_node value="wpn_fps_ass_m4"/>
+			<value_node value="wpn_fps_sho_basset"/>
+			<value_node value="wpn_fps_smg_hajk"/>
+			<value_node value="wpn_fps_sho_rota"/>
+			<value_node value="wpn_fps_smg_polymer"/>
+			<value_node value="wpn_fps_ass_flint"/>
+			<value_node value="wpn_fps_smg_shepheard"/>
+		</weapons>
+		<pcs/>
+	</WeaponMod>
+
+ 	<WeaponMod id="wpn_fps_upg_o_var_troy_front" based_on="wpn_fps_upg_o_dd_front" type="front_sight" a_obj="a_of" unit="units/mods/weapons/wpn_fps_upg_o_var_troy/wpn_fps_upg_o_var_troy_front" drop="false" is_a_unlockable="false"/>
+
+	<WeaponMod id="wpn_fps_upg_o_var_troy_rear" based_on="wpn_fps_m4_uupg_o_flipup" type="sight" a_obj="a_or" unit="units/mods/weapons/wpn_fps_upg_o_var_troy/wpn_fps_upg_o_var_troy_rear" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<adds>
+			<value_node value="wpn_fps_upg_o_var_troy_front"/>
+		</adds>
+		<stance_mod>
+			<wpn_fps_shot_saiga translation="0.07 -14 -2.595"/>
+			<wpn_fps_ass_aug translation="0.005 -5 -2.4"/>
+			<wpn_fps_smg_p90 translation="0.005 -10 -2.66"/>
+			<wpn_fps_sho_striker translation="0 -10 -2.41"/>
+			<wpn_fps_sho_ksg translation="0.005 -6 -0.95"/>
+			<wpn_fps_ass_m4 translation="0 0 -0.175"/>
+			<wpn_fps_ass_m16 rotation="0.00196349 -0 -0 -0.999998" translation="-0.008 -3 0.35"/>
+			<wpn_fps_ass_g36 translation="-0.015 -7 -2.59"/>
+			<wpn_fps_sho_basset translation="0 -9 -0.3"/>
+			<wpn_fps_smg_mp5 translation="0.005 -3 -2.555"/>
+			<wpn_fps_smg_hajk translation="0.005 2 -0.115"/>
+			<wpn_fps_sho_rota translation="0 -12 -0.05"/>
+			<wpn_fps_smg_polymer translation="0 1 -0.29"/>
+			<wpn_fps_ass_komodo translation="0.005 0 0.46"/>
+			<wpn_fps_ass_flint translation="0 -6 -2.32"/>
+			<wpn_fps_smg_shepheard translation="0.005 -11 -0.05"/>
+		</stance_mod>
+		<weapons>
+			<value_node value="wpn_fps_shot_saiga"/>
+			<value_node value="wpn_fps_ass_aug"/>
+			<value_node value="wpn_fps_smg_p90"/>
+			<value_node value="wpn_fps_sho_striker"/>
+			<value_node value="wpn_fps_sho_ksg"/>
+			<value_node value="wpn_fps_ass_m4"/>
+			<value_node value="wpn_fps_ass_m16"/>
+			<value_node value="wpn_fps_ass_g36"/>
+			<value_node value="wpn_fps_sho_basset"/>
+			<value_node value="wpn_fps_smg_mp5"/>
+			<value_node value="wpn_fps_smg_hajk"/>
+			<value_node value="wpn_fps_sho_rota"/>
+			<value_node value="wpn_fps_smg_polymer"/>
+			<value_node value="wpn_fps_ass_komodo"/>
+			<value_node value="wpn_fps_ass_flint"/>
+			<value_node value="wpn_fps_smg_shepheard"/>
+		</weapons>
+		<pcs/>
+	</WeaponMod>
+
+ 	<WeaponMod id="wpn_fps_upg_o_var_troym4_front" based_on="wpn_fps_upg_o_dd_front" type="front_sight" a_obj="a_of" unit="units/mods/weapons/wpn_fps_upg_o_var_troym4/wpn_fps_upg_o_var_troym4_front" drop="false" is_a_unlockable="false"/>
+
+	<WeaponMod id="wpn_fps_upg_o_var_troym4_rear" based_on="wpn_fps_m4_uupg_o_flipup" type="sight" a_obj="a_or" unit="units/mods/weapons/wpn_fps_upg_o_var_troym4/wpn_fps_upg_o_var_troym4_rear" drop="false" texture_bundle_folder="mods" is_a_unlockable="true">
+		<adds>
+			<value_node value="wpn_fps_upg_o_var_troym4_front"/>
+		</adds>
+		<stance_mod>
+			<wpn_fps_shot_saiga translation="0.07 -14 -2.595"/>
+			<wpn_fps_ass_aug translation="0.005 -5 -2.4"/>
+			<wpn_fps_smg_p90 translation="0.005 -10 -2.66"/>
+			<wpn_fps_sho_striker translation="0 -10 -2.41"/>
+			<wpn_fps_sho_ksg translation="0.005 -6 -0.95"/>
+			<wpn_fps_ass_m4 translation="0 0 -0.175"/>
+			<wpn_fps_ass_m16 rotation="0.00196349 -0 -0 -0.999998" translation="-0.008 -3 0.35"/>
+			<wpn_fps_ass_g36 translation="-0.015 -7 -2.59"/>
+			<wpn_fps_sho_basset translation="0 -9 -0.3"/>
+			<wpn_fps_smg_mp5 translation="0.005 -3 -2.555"/>
+			<wpn_fps_smg_hajk translation="0.005 2 -0.115"/>
+			<wpn_fps_sho_rota translation="0 -12 -0.05"/>
+			<wpn_fps_smg_polymer translation="0 1 -0.29"/>
+			<wpn_fps_ass_komodo translation="0.005 0 0.46"/>
+			<wpn_fps_ass_flint translation="0 -6 -2.32"/>
+			<wpn_fps_smg_shepheard translation="0.005 -11 -0.05"/>
+		</stance_mod>
+		<weapons>
+			<value_node value="wpn_fps_shot_saiga"/>
+			<value_node value="wpn_fps_ass_aug"/>
+			<value_node value="wpn_fps_smg_p90"/>
+			<value_node value="wpn_fps_sho_striker"/>
+			<value_node value="wpn_fps_sho_ksg"/>
+			<value_node value="wpn_fps_ass_m4"/>
+			<value_node value="wpn_fps_ass_m16"/>
+			<value_node value="wpn_fps_ass_g36"/>
+			<value_node value="wpn_fps_sho_basset"/>
+			<value_node value="wpn_fps_smg_mp5"/>
+			<value_node value="wpn_fps_smg_hajk"/>
+			<value_node value="wpn_fps_sho_rota"/>
+			<value_node value="wpn_fps_smg_polymer"/>
+			<value_node value="wpn_fps_ass_komodo"/>
+			<value_node value="wpn_fps_ass_flint"/>
+			<value_node value="wpn_fps_smg_shepheard"/>
+		</weapons>
+		<pcs/>
+	</WeaponMod>
+	<AddFiles directory="Assets">
+		<texture path="units/mods/weapons/wpn_fps_upg_o_backuprionsights/kac_iron_df"/>
+		<texture path="units/mods/weapons/wpn_fps_upg_o_backuprionsights/kac_iron_df_cc"/>
+		<texture path="units/mods/weapons/wpn_fps_upg_o_backuprionsights/kac_iron_nm"/>
+		<texture path="units/mods/weapons/wpn_fps_upg_o_backuprionsights/mbus_df"/>
+		<texture path="units/mods/weapons/wpn_fps_upg_o_backuprionsights/mbus_df_cc"/>
+		<texture path="units/mods/weapons/wpn_fps_upg_o_backuprionsights/mbus_nm"/>
+		<texture path="units/mods/weapons/wpn_fps_upg_o_backuprionsights/scorpionevo_df"/>
+		<texture path="units/mods/weapons/wpn_fps_upg_o_backuprionsights/scorpionevo_df_cc"/>
+		<texture path="units/mods/weapons/wpn_fps_upg_o_backuprionsights/scorpionevo_nm"/>
+		<texture path="units/mods/weapons/wpn_fps_upg_o_backuprionsights/sight_il"/>
+		<texture path="units/mods/weapons/wpn_fps_upg_o_backuprionsights/troy_df"/>
+		<texture path="units/mods/weapons/wpn_fps_upg_o_backuprionsights/troy_df_cc"/>
+		<texture path="units/mods/weapons/wpn_fps_upg_o_backuprionsights/troy_nm"/>
+		<texture path="units/mods/weapons/wpn_fps_upg_o_backuprionsights/troym4_df"/>
+		<texture path="units/mods/weapons/wpn_fps_upg_o_backuprionsights/troym4_df_cc"/>
+		<texture path="units/mods/weapons/wpn_fps_upg_o_backuprionsights/troym4_nm"/>
+
+		<cooked_physics path="units/mods/weapons/wpn_fps_upg_o_var_dd_a1/wpn_fps_upg_o_var_dd_a1_front"/>
+		<model path="units/mods/weapons/wpn_fps_upg_o_var_dd_a1/wpn_fps_upg_o_var_dd_a1_front"/>
+		<object path="units/mods/weapons/wpn_fps_upg_o_var_dd_a1/wpn_fps_upg_o_var_dd_a1_front"/>
+		<unit path="units/mods/weapons/wpn_fps_upg_o_var_dd_a1/wpn_fps_upg_o_var_dd_a1_front"/>
+		<material_config path="units/mods/weapons/wpn_fps_upg_o_var_dd_a1/wpn_fps_upg_o_var_dd_a1_front"/>
+		<material_config path="units/mods/weapons/wpn_fps_upg_o_var_dd_a1/wpn_fps_upg_o_var_dd_a1_front_cc"/>
+		<material_config path="units/mods/weapons/wpn_fps_upg_o_var_dd_a1/wpn_fps_upg_o_var_dd_a1_front_cc_thq"/>
+		<material_config path="units/mods/weapons/wpn_fps_upg_o_var_dd_a1/wpn_fps_upg_o_var_dd_a1_front_thq"/>
+
+		<cooked_physics path="units/mods/weapons/wpn_fps_upg_o_var_dd_a1/wpn_fps_upg_o_var_dd_a1_rear"/>
+		<model path="units/mods/weapons/wpn_fps_upg_o_var_dd_a1/wpn_fps_upg_o_var_dd_a1_rear"/>
+		<object path="units/mods/weapons/wpn_fps_upg_o_var_dd_a1/wpn_fps_upg_o_var_dd_a1_rear"/>
+		<unit path="units/mods/weapons/wpn_fps_upg_o_var_dd_a1/wpn_fps_upg_o_var_dd_a1_rear"/>
+		<material_config path="units/mods/weapons/wpn_fps_upg_o_var_dd_a1/wpn_fps_upg_o_var_dd_a1_rear"/>
+		<material_config path="units/mods/weapons/wpn_fps_upg_o_var_dd_a1/wpn_fps_upg_o_var_dd_a1_rear_cc"/>
+		<material_config path="units/mods/weapons/wpn_fps_upg_o_var_dd_a1/wpn_fps_upg_o_var_dd_a1_rear_cc_thq"/>
+		<material_config path="units/mods/weapons/wpn_fps_upg_o_var_dd_a1/wpn_fps_upg_o_var_dd_a1_rear_thq"/>
+
+		<cooked_physics path="units/mods/weapons/wpn_fps_upg_o_var_kac/wpn_fps_upg_o_var_kac_front"/>
+		<model path="units/mods/weapons/wpn_fps_upg_o_var_kac/wpn_fps_upg_o_var_kac_front"/>
+		<object path="units/mods/weapons/wpn_fps_upg_o_var_kac/wpn_fps_upg_o_var_kac_front"/>
+		<unit path="units/mods/weapons/wpn_fps_upg_o_var_kac/wpn_fps_upg_o_var_kac_front"/>
+		<material_config path="units/mods/weapons/wpn_fps_upg_o_var_kac/wpn_fps_upg_o_var_kac_front"/>
+		<material_config path="units/mods/weapons/wpn_fps_upg_o_var_kac/wpn_fps_upg_o_var_kac_front_cc"/>
+		<material_config path="units/mods/weapons/wpn_fps_upg_o_var_kac/wpn_fps_upg_o_var_kac_front_cc_thq"/>
+		<material_config path="units/mods/weapons/wpn_fps_upg_o_var_kac/wpn_fps_upg_o_var_kac_front_thq"/>
+
+		<cooked_physics path="units/mods/weapons/wpn_fps_upg_o_var_kac/wpn_fps_upg_o_var_kac_rear"/>
+		<model path="units/mods/weapons/wpn_fps_upg_o_var_kac/wpn_fps_upg_o_var_kac_rear"/>
+		<object path="units/mods/weapons/wpn_fps_upg_o_var_kac/wpn_fps_upg_o_var_kac_rear"/>
+		<unit path="units/mods/weapons/wpn_fps_upg_o_var_kac/wpn_fps_upg_o_var_kac_rear"/>
+		<material_config path="units/mods/weapons/wpn_fps_upg_o_var_kac/wpn_fps_upg_o_var_kac_rear"/>
+		<material_config path="units/mods/weapons/wpn_fps_upg_o_var_kac/wpn_fps_upg_o_var_kac_rear_cc"/>
+		<material_config path="units/mods/weapons/wpn_fps_upg_o_var_kac/wpn_fps_upg_o_var_kac_rear_cc_thq"/>
+		<material_config path="units/mods/weapons/wpn_fps_upg_o_var_kac/wpn_fps_upg_o_var_kac_rear_thq"/>
+
+		<cooked_physics path="units/mods/weapons/wpn_fps_upg_o_var_m4flipup/wpn_fps_upg_o_var_m4flipup_front"/>
+		<model path="units/mods/weapons/wpn_fps_upg_o_var_m4flipup/wpn_fps_upg_o_var_m4flipup_front"/>
+		<object path="units/mods/weapons/wpn_fps_upg_o_var_m4flipup/wpn_fps_upg_o_var_m4flipup_front"/>
+		<unit path="units/mods/weapons/wpn_fps_upg_o_var_m4flipup/wpn_fps_upg_o_var_m4flipup_front"/>
+		<material_config path="units/mods/weapons/wpn_fps_upg_o_var_m4flipup/wpn_fps_upg_o_var_m4flipup_front"/>
+		<material_config path="units/mods/weapons/wpn_fps_upg_o_var_m4flipup/wpn_fps_upg_o_var_m4flipup_front_cc"/>
+		<material_config path="units/mods/weapons/wpn_fps_upg_o_var_m4flipup/wpn_fps_upg_o_var_m4flipup_front_cc_thq"/>
+		<material_config path="units/mods/weapons/wpn_fps_upg_o_var_m4flipup/wpn_fps_upg_o_var_m4flipup_front_thq"/>
+
+		<cooked_physics path="units/mods/weapons/wpn_fps_upg_o_var_m4flipup/wpn_fps_upg_o_var_m4flipup_rear"/>
+		<model path="units/mods/weapons/wpn_fps_upg_o_var_m4flipup/wpn_fps_upg_o_var_m4flipup_rear"/>
+		<object path="units/mods/weapons/wpn_fps_upg_o_var_m4flipup/wpn_fps_upg_o_var_m4flipup_rear"/>
+		<unit path="units/mods/weapons/wpn_fps_upg_o_var_m4flipup/wpn_fps_upg_o_var_m4flipup_rear"/>
+		<material_config path="units/mods/weapons/wpn_fps_upg_o_var_m4flipup/wpn_fps_upg_o_var_m4flipup_rear"/>
+		<material_config path="units/mods/weapons/wpn_fps_upg_o_var_m4flipup/wpn_fps_upg_o_var_m4flipup_rear_cc"/>
+		<material_config path="units/mods/weapons/wpn_fps_upg_o_var_m4flipup/wpn_fps_upg_o_var_m4flipup_rear_cc_thq"/>
+		<material_config path="units/mods/weapons/wpn_fps_upg_o_var_m4flipup/wpn_fps_upg_o_var_m4flipup_rear_thq"/>
+
+		<cooked_physics path="units/mods/weapons/wpn_fps_upg_o_var_mbus/wpn_fps_upg_o_var_mbus_front"/>
+		<model path="units/mods/weapons/wpn_fps_upg_o_var_mbus/wpn_fps_upg_o_var_mbus_front"/>
+		<object path="units/mods/weapons/wpn_fps_upg_o_var_mbus/wpn_fps_upg_o_var_mbus_front"/>
+		<unit path="units/mods/weapons/wpn_fps_upg_o_var_mbus/wpn_fps_upg_o_var_mbus_front"/>
+		<material_config path="units/mods/weapons/wpn_fps_upg_o_var_mbus/wpn_fps_upg_o_var_mbus_front"/>
+		<material_config path="units/mods/weapons/wpn_fps_upg_o_var_mbus/wpn_fps_upg_o_var_mbus_front_cc"/>
+		<material_config path="units/mods/weapons/wpn_fps_upg_o_var_mbus/wpn_fps_upg_o_var_mbus_front_cc_thq"/>
+		<material_config path="units/mods/weapons/wpn_fps_upg_o_var_mbus/wpn_fps_upg_o_var_mbus_front_thq"/>
+
+		<cooked_physics path="units/mods/weapons/wpn_fps_upg_o_var_mbus/wpn_fps_upg_o_var_mbus_rear"/>
+		<model path="units/mods/weapons/wpn_fps_upg_o_var_mbus/wpn_fps_upg_o_var_mbus_rear"/>
+		<object path="units/mods/weapons/wpn_fps_upg_o_var_mbus/wpn_fps_upg_o_var_mbus_rear"/>
+		<unit path="units/mods/weapons/wpn_fps_upg_o_var_mbus/wpn_fps_upg_o_var_mbus_rear"/>
+		<material_config path="units/mods/weapons/wpn_fps_upg_o_var_mbus/wpn_fps_upg_o_var_mbus_rear"/>
+		<material_config path="units/mods/weapons/wpn_fps_upg_o_var_mbus/wpn_fps_upg_o_var_mbus_rear_cc"/>
+		<material_config path="units/mods/weapons/wpn_fps_upg_o_var_mbus/wpn_fps_upg_o_var_mbus_rear_cc_thq"/>
+		<material_config path="units/mods/weapons/wpn_fps_upg_o_var_mbus/wpn_fps_upg_o_var_mbus_rear_thq"/>
+
+		<cooked_physics path="units/mods/weapons/wpn_fps_upg_o_var_scorpionevo/wpn_fps_upg_o_var_scorpionevo_front"/>
+		<model path="units/mods/weapons/wpn_fps_upg_o_var_scorpionevo/wpn_fps_upg_o_var_scorpionevo_front"/>
+		<object path="units/mods/weapons/wpn_fps_upg_o_var_scorpionevo/wpn_fps_upg_o_var_scorpionevo_front"/>
+		<unit path="units/mods/weapons/wpn_fps_upg_o_var_scorpionevo/wpn_fps_upg_o_var_scorpionevo_front"/>
+		<material_config path="units/mods/weapons/wpn_fps_upg_o_var_scorpionevo/wpn_fps_upg_o_var_scorpionevo_front"/>
+		<material_config path="units/mods/weapons/wpn_fps_upg_o_var_scorpionevo/wpn_fps_upg_o_var_scorpionevo_front_cc"/>
+		<material_config path="units/mods/weapons/wpn_fps_upg_o_var_scorpionevo/wpn_fps_upg_o_var_scorpionevo_front_cc_thq"/>
+		<material_config path="units/mods/weapons/wpn_fps_upg_o_var_scorpionevo/wpn_fps_upg_o_var_scorpionevo_front_thq"/>
+
+		<cooked_physics path="units/mods/weapons/wpn_fps_upg_o_var_scorpionevo/wpn_fps_upg_o_var_scorpionevo_rear"/>
+		<model path="units/mods/weapons/wpn_fps_upg_o_var_scorpionevo/wpn_fps_upg_o_var_scorpionevo_rear"/>
+		<object path="units/mods/weapons/wpn_fps_upg_o_var_scorpionevo/wpn_fps_upg_o_var_scorpionevo_rear"/>
+		<unit path="units/mods/weapons/wpn_fps_upg_o_var_scorpionevo/wpn_fps_upg_o_var_scorpionevo_rear"/>
+		<material_config path="units/mods/weapons/wpn_fps_upg_o_var_scorpionevo/wpn_fps_upg_o_var_scorpionevo_rear"/>
+		<material_config path="units/mods/weapons/wpn_fps_upg_o_var_scorpionevo/wpn_fps_upg_o_var_scorpionevo_rear_cc"/>
+		<material_config path="units/mods/weapons/wpn_fps_upg_o_var_scorpionevo/wpn_fps_upg_o_var_scorpionevo_rear_cc_thq"/>
+		<material_config path="units/mods/weapons/wpn_fps_upg_o_var_scorpionevo/wpn_fps_upg_o_var_scorpionevo_rear_thq"/>
+
+		<cooked_physics path="units/mods/weapons/wpn_fps_upg_o_var_troy/wpn_fps_upg_o_var_troy_front"/>
+		<model path="units/mods/weapons/wpn_fps_upg_o_var_troy/wpn_fps_upg_o_var_troy_front"/>
+		<object path="units/mods/weapons/wpn_fps_upg_o_var_troy/wpn_fps_upg_o_var_troy_front"/>
+		<unit path="units/mods/weapons/wpn_fps_upg_o_var_troy/wpn_fps_upg_o_var_troy_front"/>
+		<material_config path="units/mods/weapons/wpn_fps_upg_o_var_troy/wpn_fps_upg_o_var_troy_front"/>
+		<material_config path="units/mods/weapons/wpn_fps_upg_o_var_troy/wpn_fps_upg_o_var_troy_front_cc"/>
+		<material_config path="units/mods/weapons/wpn_fps_upg_o_var_troy/wpn_fps_upg_o_var_troy_front_cc_thq"/>
+		<material_config path="units/mods/weapons/wpn_fps_upg_o_var_troy/wpn_fps_upg_o_var_troy_front_thq"/>
+
+		<cooked_physics path="units/mods/weapons/wpn_fps_upg_o_var_troy/wpn_fps_upg_o_var_troy_rear"/>
+		<model path="units/mods/weapons/wpn_fps_upg_o_var_troy/wpn_fps_upg_o_var_troy_rear"/>
+		<object path="units/mods/weapons/wpn_fps_upg_o_var_troy/wpn_fps_upg_o_var_troy_rear"/>
+		<unit path="units/mods/weapons/wpn_fps_upg_o_var_troy/wpn_fps_upg_o_var_troy_rear"/>
+		<material_config path="units/mods/weapons/wpn_fps_upg_o_var_troy/wpn_fps_upg_o_var_troy_rear"/>
+		<material_config path="units/mods/weapons/wpn_fps_upg_o_var_troy/wpn_fps_upg_o_var_troy_rear_cc"/>
+		<material_config path="units/mods/weapons/wpn_fps_upg_o_var_troy/wpn_fps_upg_o_var_troy_rear_cc_thq"/>
+		<material_config path="units/mods/weapons/wpn_fps_upg_o_var_troy/wpn_fps_upg_o_var_troy_rear_thq"/>
+
+		<cooked_physics path="units/mods/weapons/wpn_fps_upg_o_var_troym4/wpn_fps_upg_o_var_troym4_front"/>
+		<model path="units/mods/weapons/wpn_fps_upg_o_var_troym4/wpn_fps_upg_o_var_troym4_front"/>
+		<object path="units/mods/weapons/wpn_fps_upg_o_var_troym4/wpn_fps_upg_o_var_troym4_front"/>
+		<unit path="units/mods/weapons/wpn_fps_upg_o_var_troym4/wpn_fps_upg_o_var_troym4_front"/>
+		<material_config path="units/mods/weapons/wpn_fps_upg_o_var_troym4/wpn_fps_upg_o_var_troym4_front"/>
+		<material_config path="units/mods/weapons/wpn_fps_upg_o_var_troym4/wpn_fps_upg_o_var_troym4_front_cc"/>
+		<material_config path="units/mods/weapons/wpn_fps_upg_o_var_troym4/wpn_fps_upg_o_var_troym4_front_cc_thq"/>
+		<material_config path="units/mods/weapons/wpn_fps_upg_o_var_troym4/wpn_fps_upg_o_var_troym4_front_thq"/>
+
+		<cooked_physics path="units/mods/weapons/wpn_fps_upg_o_var_troym4/wpn_fps_upg_o_var_troym4_rear"/>
+		<model path="units/mods/weapons/wpn_fps_upg_o_var_troym4/wpn_fps_upg_o_var_troym4_rear"/>
+		<object path="units/mods/weapons/wpn_fps_upg_o_var_troym4/wpn_fps_upg_o_var_troym4_rear"/>
+		<unit path="units/mods/weapons/wpn_fps_upg_o_var_troym4/wpn_fps_upg_o_var_troym4_rear"/>
+		<material_config path="units/mods/weapons/wpn_fps_upg_o_var_troym4/wpn_fps_upg_o_var_troym4_rear"/>
+		<material_config path="units/mods/weapons/wpn_fps_upg_o_var_troym4/wpn_fps_upg_o_var_troym4_rear_cc"/>
+		<material_config path="units/mods/weapons/wpn_fps_upg_o_var_troym4/wpn_fps_upg_o_var_troym4_rear_cc_thq"/>
+		<material_config path="units/mods/weapons/wpn_fps_upg_o_var_troym4/wpn_fps_upg_o_var_troym4_rear_thq"/>
+
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_o_var_dd_a1_rear"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_o_var_kac_rear"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_o_var_m4flipup_rear"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_o_var_mbus_rear"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_o_var_scorpionevo_rear"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_o_var_troy_rear"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_o_var_troym4_rear"/>
+		<texture path="guis/mod_icons/backupirons"/>
+	</AddFiles>
+	<Hooks directory="Hooks">
+		<hook file="weaponfactorytweakdata.lua" source_file="lib/tweak_data/weaponfactorytweakdata"/>
+		<hook file="weapontweakdata.lua" source_file="lib/tweak_data/weapontweakdata"/>
+	</Hooks>
+</table>

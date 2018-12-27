@@ -1,0 +1,6 @@
+<unit type="wpn" slot="1" >
+    <object file="units/mods/weapons/wpn_fps_upg_o_var_dd_a1/wpn_fps_upg_o_var_dd_a1_front" />
+    <extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+    </extensions>
+</unit>
